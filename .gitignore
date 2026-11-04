@@ -1,0 +1,7 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+One-Stage-TFS Thai One-Stage Fingerspelling Dataset/
+Source(Paper)/
