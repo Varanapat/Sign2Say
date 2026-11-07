@@ -1,0 +1,8 @@
+# ละเว้นโฟลเดอร์ที่มีขนาดใหญ่
+TSL-ONE-S/
+pose_npy/
+
+# ละเว้นไฟล์ zip และ virtual environment (แนะนำเพิ่มเติมจากโครงสร้างไฟล์ในรูป)
+pose_npy.zip
+venv/
+.venv/
