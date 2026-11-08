@@ -1,0 +1,23 @@
+experiment      : b16_signer_aug_80
+best val        : 77.33% (epoch 50)
+Test top-1      : 66.11% (275/416)
+Test top-5      : 89.42%
+Test macro-F1   : 0.6382
+เวลารวม         : 98.9 นาที
+
+คู่ที่ทายผิดบ่อยสุด (จริง -> ทาย : จำนวน):
+  ee -> u : 3
+  Kor Kai -> Gor Gai : 2
+  For Fun -> 9 : 2
+  i -> u : 2
+  Ror Rua -> Gor Gai : 2
+  Kor Kwaii -> Gor Gai : 2
+  Hor Heep -> Grandchild : 2
+  Sor Rue Si -> Thor Tharn : 2
+  Yor Yuk -> Grandma : 1
+  Mom -> Sor Saalaa : 1
+  LGBTQ+ -> 9 : 1
+  Tomboy -> Future Park Rangsit : 1
+  Volleyball -> Wrestling : 1
+  Volleyball -> Government House : 1
+  Aunt (Mother's younger brother) -> Or Aang : 1

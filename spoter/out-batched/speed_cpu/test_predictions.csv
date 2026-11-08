@@ -1,0 +1,417 @@
+﻿idx,true_id,true_name,pred_id,pred_name,correct
+0,90,Yor Yuk,92,Mor Maa,0
+1,90,Yor Yuk,28,Crocodile farm,0
+2,90,Yor Yuk,28,Crocodile farm,0
+3,112,Mom,108,aii,0
+4,112,Mom,104,u,0
+5,142,LGBTQ+,93,Nor Nhoo,0
+6,142,LGBTQ+,135,Family,0
+7,17,Wat Phra That Phanom,18,Wat Phra Pathom Chedi,0
+8,17,Wat Phra That Phanom,18,Wat Phra Pathom Chedi,0
+9,144,Tomboy,93,Nor Nhoo,0
+10,144,Tomboy,26,Victory Monument,0
+11,148,Volleyball,168,Bowling,0
+12,148,Volleyball,15,Wat Benchamabophit,0
+13,37,MBK Center,28,Crocodile farm,0
+14,37,MBK Center,28,Crocodile farm,0
+15,94,Nor Nayn,76,Phor Pheung,0
+16,94,Nor Nayn,93,Nor Nhoo,0
+17,94,Nor Nayn,74,Phor Phaan,0
+18,125,Aunt (Mother's younger brother),93,Nor Nhoo,0
+19,125,Aunt (Mother's younger brother),74,Phor Phaan,0
+20,127,Close friend,168,Bowling,0
+21,127,Close friend,135,Family,0
+22,97,Thor Thohng,100,Chor Cher,0
+23,97,Thor Thohng,97,Thor Thohng,1
+24,97,Thor Thohng,97,Thor Thohng,1
+25,123,Aunt (Mother's or father's older sister),100,Chor Cher,0
+26,123,Aunt (Mother's or father's older sister),93,Nor Nhoo,0
+27,100,Chor Cher,92,Mor Maa,0
+28,100,Chor Cher,93,Nor Nhoo,0
+29,100,Chor Cher,108,aii,0
+30,131,Older sister,92,Mor Maa,0
+31,131,Older sister,108,aii,0
+32,113,Children,135,Family,0
+33,113,Children,135,Family,0
+34,67,Thor Phoo Thao,74,Phor Phaan,0
+35,67,Thor Phoo Thao,93,Nor Nhoo,0
+36,67,Thor Phoo Thao,76,Phor Pheung,0
+37,170,Sailboat,28,Crocodile farm,0
+38,170,Sailboat,15,Wat Benchamabophit,0
+39,74,Phor Phaan,93,Nor Nhoo,0
+40,74,Phor Phaan,157,Petanque,0
+41,74,Phor Phaan,76,Phor Pheung,0
+42,147,Basketball,15,Wat Benchamabophit,0
+43,147,Basketball,15,Wat Benchamabophit,0
+44,22,Hua Lamphong Railway Station,182,Fish meat,0
+45,22,Hua Lamphong Railway Station,15,Wat Benchamabophit,0
+46,151,Wrestling,182,Fish meat,0
+47,151,Wrestling,93,Nor Nhoo,0
+48,11,Israel,26,Victory Monument,0
+49,137,Male,92,Mor Maa,0
+50,137,Male,28,Crocodile farm,0
+51,13,Wat Pho,15,Wat Benchamabophit,0
+52,13,Wat Pho,15,Wat Benchamabophit,0
+53,111,Dad,28,Crocodile farm,0
+54,111,Dad,108,aii,0
+55,135,Family,135,Family,1
+56,135,Family,135,Family,1
+57,115,Grandmother,178,Wild boar meat,0
+58,115,Grandmother,93,Nor Nhoo,0
+59,105,uu,92,Mor Maa,0
+60,105,uu,92,Mor Maa,0
+61,105,uu,92,Mor Maa,0
+62,161,Discus throwing,28,Crocodile farm,0
+63,161,Discus throwing,15,Wat Benchamabophit,0
+64,44,Chatuchak Weekend Market,183,Grocery,0
+65,44,Chatuchak Weekend Market,168,Bowling,0
+66,116,Grandpa,178,Wild boar meat,0
+67,116,Grandpa,97,Thor Thohng,0
+68,66,Thor Tharn,93,Nor Nhoo,0
+69,66,Thor Tharn,76,Phor Pheung,0
+70,66,Thor Tharn,93,Nor Nhoo,0
+71,12,Wat Phra Kaew,28,Crocodile farm,0
+72,12,Wat Phra Kaew,135,Family,0
+73,126,Friend,182,Fish meat,0
+74,126,Friend,182,Fish meat,0
+75,164,Swimming,93,Nor Nhoo,0
+76,164,Swimming,93,Nor Nhoo,0
+77,56,7,92,Mor Maa,0
+78,56,7,108,aii,0
+79,0,Country,135,Family,0
+80,0,Country,183,Grocery,0
+81,108,aii,108,aii,1
+82,108,aii,108,aii,1
+83,108,aii,108,aii,1
+84,61,Kor Kai,93,Nor Nhoo,0
+85,61,Kor Kai,93,Nor Nhoo,0
+86,61,Kor Kai,93,Nor Nhoo,0
+87,107,ai,106,o,0
+88,107,ai,108,aii,0
+89,107,ai,108,aii,0
+90,19,Wat Phra That Doi Suthep,15,Wat Benchamabophit,0
+91,19,Wat Phra That Doi Suthep,28,Crocodile farm,0
+92,57,8,92,Mor Maa,0
+93,57,8,92,Mor Maa,0
+94,40,Future Park Rangsit,28,Crocodile farm,0
+95,40,Future Park Rangsit,178,Wild boar meat,0
+96,133,Relative,93,Nor Nhoo,0
+97,133,Relative,92,Mor Maa,0
+98,60,Gor Gai,93,Nor Nhoo,0
+99,60,Gor Gai,97,Thor Thohng,0
+100,60,Gor Gai,100,Chor Cher,0
+101,132,Younger sister,93,Nor Nhoo,0
+102,132,Younger sister,93,Nor Nhoo,0
+103,3,Myanmar,93,Nor Nhoo,0
+104,3,Myanmar,93,Nor Nhoo,0
+105,51,2,74,Phor Phaan,0
+106,51,2,76,Phor Pheung,0
+107,175,Century egg,18,Wat Phra Pathom Chedi,0
+108,175,Century egg,93,Nor Nhoo,0
+109,140,Transgender,15,Wat Benchamabophit,0
+110,140,Transgender,92,Mor Maa,0
+111,32,Lumphini Park,76,Phor Pheung,0
+112,32,Lumphini Park,76,Phor Pheung,0
+113,85,For Fun,175,Century egg,0
+114,85,For Fun,92,Mor Maa,0
+115,85,For Fun,28,Crocodile farm,0
+116,79,Hor Nok Hoog,93,Nor Nhoo,0
+117,79,Hor Nok Hoog,93,Nor Nhoo,0
+118,79,Hor Nok Hoog,100,Chor Cher,0
+119,155,Table Tennis,135,Family,0
+120,155,Table Tennis,135,Family,0
+121,68,Thor Mon-Tho,93,Nor Nhoo,0
+122,68,Thor Mon-Tho,92,Mor Maa,0
+123,68,Thor Mon-Tho,28,Crocodile farm,0
+124,119,Great-grandmother,183,Grocery,0
+125,119,Great-grandmother,93,Nor Nhoo,0
+126,110,Wife,28,Crocodile farm,0
+127,110,Wife,135,Family,0
+128,121,Great-grandchild,104,u,0
+129,121,Great-grandchild,135,Family,0
+130,141,Gender,108,aii,0
+131,141,Gender,92,Mor Maa,0
+132,160,Weight throwing,28,Crocodile farm,0
+133,160,Weight throwing,28,Crocodile farm,0
+134,9,Taiwan,106,o,0
+135,9,Taiwan,76,Phor Pheung,0
+136,149,Takraw,92,Mor Maa,0
+137,149,Takraw,28,Crocodile farm,0
+138,63,Kor Ra-Kung,74,Phor Phaan,0
+139,63,Kor Ra-Kung,76,Phor Pheung,0
+140,63,Kor Ra-Kung,93,Nor Nhoo,0
+141,179,Beef,76,Phor Pheung,0
+142,179,Beef,93,Nor Nhoo,0
+143,173,Chicken egg,76,Phor Pheung,0
+144,173,Chicken egg,93,Nor Nhoo,0
+145,76,Phor Pheung,74,Phor Phaan,0
+146,76,Phor Pheung,93,Nor Nhoo,0
+147,76,Phor Pheung,76,Phor Pheung,1
+148,64,Tor Tao,93,Nor Nhoo,0
+149,64,Tor Tao,76,Phor Pheung,0
+150,64,Tor Tao,93,Nor Nhoo,0
+151,139,Gay,183,Grocery,0
+152,139,Gay,97,Thor Thohng,0
+153,83,Dor Dek,28,Crocodile farm,0
+154,83,Dor Dek,118,Great-grandfather,0
+155,83,Dor Dek,93,Nor Nhoo,0
+156,102,i,108,aii,0
+157,102,i,28,Crocodile farm,0
+158,102,i,108,aii,0
+159,5,Vietnam,18,Wat Phra Pathom Chedi,0
+160,5,Vietnam,26,Victory Monument,0
+161,92,Mor Maa,28,Crocodile farm,0
+162,92,Mor Maa,92,Mor Maa,1
+163,92,Mor Maa,28,Crocodile farm,0
+164,134,Cousin,92,Mor Maa,0
+165,134,Cousin,15,Wat Benchamabophit,0
+166,70,Sor Sua,92,Mor Maa,0
+167,70,Sor Sua,92,Mor Maa,0
+168,70,Sor Sua,28,Crocodile farm,0
+169,86,Fhor Fhaa,92,Mor Maa,0
+170,86,Fhor Fhaa,92,Mor Maa,0
+171,86,Fhor Fhaa,28,Crocodile farm,0
+172,99,Chor Chaang,93,Nor Nhoo,0
+173,99,Chor Chaang,93,Nor Nhoo,0
+174,99,Chor Chaang,28,Crocodile farm,0
+175,181,Venison,28,Crocodile farm,0
+176,181,Venison,26,Victory Monument,0
+177,145,Ladyboy,183,Grocery,0
+178,145,Ladyboy,183,Grocery,0
+179,165,Archery,165,Archery,1
+180,165,Archery,74,Phor Phaan,0
+181,158,Running,18,Wat Phra Pathom Chedi,0
+182,158,Running,175,Century egg,0
+183,169,Golf,15,Wat Benchamabophit,0
+184,169,Golf,18,Wat Phra Pathom Chedi,0
+185,25,Government House,15,Wat Benchamabophit,0
+186,25,Government House,15,Wat Benchamabophit,0
+187,154,Tennis,28,Crocodile farm,0
+188,154,Tennis,135,Family,0
+189,136,Parent,18,Wat Phra Pathom Chedi,0
+190,136,Parent,28,Crocodile farm,0
+191,46,Siam Amazing Park,28,Crocodile farm,0
+192,46,Siam Amazing Park,28,Crocodile farm,0
+193,80,Bor Bai Mai,28,Crocodile farm,0
+194,80,Bor Bai Mai,28,Crocodile farm,0
+195,80,Bor Bai Mai,92,Mor Maa,0
+196,109,Husband,15,Wat Benchamabophit,0
+197,109,Husband,28,Crocodile farm,0
+198,81,Ror Rua,104,u,0
+199,81,Ror Rua,92,Mor Maa,0
+200,81,Ror Rua,104,u,0
+201,152,Judo,182,Fish meat,0
+202,152,Judo,28,Crocodile farm,0
+203,84,Dor Cha-Daa,93,Nor Nhoo,0
+204,84,Dor Cha-Daa,76,Phor Pheung,0
+205,84,Dor Cha-Daa,28,Crocodile farm,0
+206,138,Female,93,Nor Nhoo,0
+207,138,Female,100,Chor Cher,0
+208,106,o,108,aii,0
+209,106,o,106,o,1
+210,106,o,106,o,1
+211,1,Thailand,107,ai,0
+212,1,Thailand,28,Crocodile farm,0
+213,180,Mutton,182,Fish meat,0
+214,180,Mutton,27,Democracy Monument,0
+215,75,Por Plaa,93,Nor Nhoo,0
+216,75,Por Plaa,76,Phor Pheung,0
+217,75,Por Plaa,93,Nor Nhoo,0
+218,45,Train Night Market,168,Bowling,0
+219,45,Train Night Market,175,Century egg,0
+220,104,u,108,aii,0
+221,104,u,108,aii,0
+222,104,u,28,Crocodile farm,0
+223,35,Siam Square,28,Crocodile farm,0
+224,35,Siam Square,28,Crocodile farm,0
+225,178,Wild boar meat,174,Duck egg,0
+226,178,Wild boar meat,76,Phor Pheung,0
+227,38,Robinson Department Store,18,Wat Phra Pathom Chedi,0
+228,38,Robinson Department Store,18,Wat Phra Pathom Chedi,0
+229,62,Kor Kwaii,93,Nor Nhoo,0
+230,62,Kor Kwaii,93,Nor Nhoo,0
+231,62,Kor Kwaii,93,Nor Nhoo,0
+232,49,0,108,aii,0
+233,49,0,100,Chor Cher,0
+234,182,Fish meat,93,Nor Nhoo,0
+235,182,Fish meat,15,Wat Benchamabophit,0
+236,21,Giant Swing,173,Chicken egg,0
+237,21,Giant Swing,76,Phor Pheung,0
+238,159,High Jump,27,Democracy Monument,0
+239,159,High Jump,18,Wat Phra Pathom Chedi,0
+240,15,Wat Benchamabophit,15,Wat Benchamabophit,1
+241,15,Wat Benchamabophit,18,Wat Phra Pathom Chedi,0
+242,128,Girlfriend,28,Crocodile farm,0
+243,128,Girlfriend,28,Crocodile farm,0
+244,58,9,76,Phor Pheung,0
+245,58,9,92,Mor Maa,0
+246,34,Chatuchak Park,135,Family,0
+247,34,Chatuchak Park,135,Family,0
+248,65,Thor Thoong,74,Phor Phaan,0
+249,65,Thor Thoong,93,Nor Nhoo,0
+250,65,Thor Thoong,97,Thor Thohng,0
+251,47,Dreamworld,28,Crocodile farm,0
+252,47,Dreamworld,28,Crocodile farm,0
+253,30,Amporn Gardens,92,Mor Maa,0
+254,30,Amporn Gardens,76,Phor Pheung,0
+255,129,Older brother,93,Nor Nhoo,0
+256,129,Older brother,106,o,0
+257,95,Ngor Ngoo,93,Nor Nhoo,0
+258,95,Ngor Ngoo,93,Nor Nhoo,0
+259,95,Ngor Ngoo,93,Nor Nhoo,0
+260,166,Cycling,28,Crocodile farm,0
+261,166,Cycling,28,Crocodile farm,0
+262,16,Temple of the Golden Mount,18,Wat Phra Pathom Chedi,0
+263,16,Temple of the Golden Mount,15,Wat Benchamabophit,0
+264,130,Younger brother,108,aii,0
+265,130,Younger brother,28,Crocodile farm,0
+266,87,Lor Ling,28,Crocodile farm,0
+267,87,Lor Ling,74,Phor Phaan,0
+268,87,Lor Ling,93,Nor Nhoo,0
+269,143,Lesbian,183,Grocery,0
+270,143,Lesbian,183,Grocery,0
+271,20,Sanam Luang,76,Phor Pheung,0
+272,20,Sanam Luang,28,Crocodile farm,0
+273,157,Petanque,28,Crocodile farm,0
+274,157,Petanque,28,Crocodile farm,0
+275,78,Hor Heep,97,Thor Thohng,0
+276,78,Hor Heep,106,o,0
+277,78,Hor Heep,93,Nor Nhoo,0
+278,69,Tor Pa-Tuk,28,Crocodile farm,0
+279,69,Tor Pa-Tuk,92,Mor Maa,0
+280,69,Tor Pa-Tuk,28,Crocodile farm,0
+281,43,Big C,18,Wat Phra Pathom Chedi,0
+282,43,Big C,15,Wat Benchamabophit,0
+283,101,Or Aang,74,Phor Phaan,0
+284,101,Or Aang,93,Nor Nhoo,0
+285,101,Or Aang,100,Chor Cher,0
+286,33,The Memorial Monument of Thao Suranaree,76,Phor Pheung,0
+287,33,The Memorial Monument of Thao Suranaree,76,Phor Pheung,0
+288,103,ee,28,Crocodile farm,0
+289,103,ee,28,Crocodile farm,0
+290,103,ee,104,u,0
+291,6,China,26,Victory Monument,0
+292,6,China,38,Robinson Department Store,0
+293,172,Egg,76,Phor Pheung,0
+294,172,Egg,93,Nor Nhoo,0
+295,146,Football,28,Crocodile farm,0
+296,146,Football,28,Crocodile farm,0
+297,98,Chor Ching,106,o,0
+298,98,Chor Ching,93,Nor Nhoo,0
+299,98,Chor Ching,100,Chor Cher,0
+300,53,4,92,Mor Maa,0
+301,53,4,92,Mor Maa,0
+302,8,Macau,135,Family,0
+303,8,Macau,165,Archery,0
+304,183,Grocery,183,Grocery,1
+305,183,Grocery,182,Fish meat,0
+306,168,Bowling,76,Phor Pheung,0
+307,168,Bowling,135,Family,0
+308,48,Safari World,28,Crocodile farm,0
+309,48,Safari World,76,Phor Pheung,0
+310,41,Makro,18,Wat Phra Pathom Chedi,0
+311,41,Makro,93,Nor Nhoo,0
+312,167,Chess,135,Family,0
+313,167,Chess,28,Crocodile farm,0
+314,91,Yor Ying,108,aii,0
+315,91,Yor Ying,28,Crocodile farm,0
+316,91,Yor Ying,28,Crocodile farm,0
+317,55,6,28,Crocodile farm,0
+318,55,6,92,Mor Maa,0
+319,28,Crocodile farm,15,Wat Benchamabophit,0
+320,28,Crocodile farm,28,Crocodile farm,1
+321,163,Shooting,135,Family,0
+322,163,Shooting,27,Democracy Monument,0
+323,54,5,92,Mor Maa,0
+324,54,5,28,Crocodile farm,0
+325,27,Democracy Monument,182,Fish meat,0
+326,27,Democracy Monument,18,Wat Phra Pathom Chedi,0
+327,118,Great-grandfather,93,Nor Nhoo,0
+328,118,Great-grandfather,175,Century egg,0
+329,122,Uncle (Mother's or father's older brother),76,Phor Pheung,0
+330,122,Uncle (Mother's or father's older brother),104,u,0
+331,71,Sor Saalaa,74,Phor Phaan,0
+332,71,Sor Saalaa,93,Nor Nhoo,0
+333,71,Sor Saalaa,76,Phor Pheung,0
+334,176,Salted egg,97,Thor Thohng,0
+335,176,Salted egg,175,Century egg,0
+336,10,Pakistan,15,Wat Benchamabophit,0
+337,10,Pakistan,28,Crocodile farm,0
+338,156,Gymnastic,28,Crocodile farm,0
+339,156,Gymnastic,28,Crocodile farm,0
+340,82,Wor Whaen,92,Mor Maa,0
+341,82,Wor Whaen,28,Crocodile farm,0
+342,82,Wor Whaen,28,Crocodile farm,0
+343,2,Laos,93,Nor Nhoo,0
+344,2,Laos,106,o,0
+345,59,10,93,Nor Nhoo,0
+346,59,10,174,Duck egg,0
+347,73,Sor So,28,Crocodile farm,0
+348,73,Sor So,93,Nor Nhoo,0
+349,73,Sor So,28,Crocodile farm,0
+350,114,Grandfather,93,Nor Nhoo,0
+351,114,Grandfather,93,Nor Nhoo,0
+352,93,Nor Nhoo,28,Crocodile farm,0
+353,93,Nor Nhoo,93,Nor Nhoo,1
+354,93,Nor Nhoo,74,Phor Phaan,0
+355,162,Javelin throwing,28,Crocodile farm,0
+356,162,Javelin throwing,92,Mor Maa,0
+357,72,Sor Rue Si,93,Nor Nhoo,0
+358,72,Sor Rue Si,92,Mor Maa,0
+359,72,Sor Rue Si,28,Crocodile farm,0
+360,124,Uncle (Father's younger brother),93,Nor Nhoo,0
+361,124,Uncle (Father's younger brother),97,Thor Thohng,0
+362,4,Cambodia,76,Phor Pheung,0
+363,4,Cambodia,135,Family,0
+364,24,Bang Lamphu,76,Phor Pheung,0
+365,24,Bang Lamphu,92,Mor Maa,0
+366,153,Badminton,135,Family,0
+367,153,Badminton,76,Phor Pheung,0
+368,117,Grandma,183,Grocery,0
+369,117,Grandma,93,Nor Nhoo,0
+370,96,Tor Thaharn,106,o,0
+371,96,Tor Thaharn,97,Thor Thohng,0
+372,96,Tor Thaharn,97,Thor Thohng,0
+373,171,Sport,15,Wat Benchamabophit,0
+374,171,Sport,18,Wat Phra Pathom Chedi,0
+375,88,Lor Chulaa,93,Nor Nhoo,0
+376,88,Lor Chulaa,74,Phor Phaan,0
+377,88,Lor Chulaa,76,Phor Pheung,0
+378,42,Tesco Lotus,26,Victory Monument,0
+379,42,Tesco Lotus,15,Wat Benchamabophit,0
+380,18,Wat Phra Pathom Chedi,18,Wat Phra Pathom Chedi,1
+381,18,Wat Phra Pathom Chedi,18,Wat Phra Pathom Chedi,1
+382,174,Duck egg,93,Nor Nhoo,0
+383,174,Duck egg,74,Phor Phaan,0
+384,89,Jor Jaan,100,Chor Cher,0
+385,89,Jor Jaan,106,o,0
+386,89,Jor Jaan,106,o,0
+387,39,The Mall Department Store,100,Chor Cher,0
+388,39,The Mall Department Store,76,Phor Pheung,0
+389,150,Boxing,76,Phor Pheung,0
+390,150,Boxing,183,Grocery,0
+391,14,Wat Arun,15,Wat Benchamabophit,0
+392,14,Wat Arun,28,Crocodile farm,0
+393,52,3,76,Phor Pheung,0
+394,52,3,76,Phor Pheung,0
+395,77,Phor Samphao,76,Phor Pheung,0
+396,77,Phor Samphao,76,Phor Pheung,0
+397,77,Phor Samphao,76,Phor Pheung,0
+398,120,Grandchild,26,Victory Monument,0
+399,120,Grandchild,93,Nor Nhoo,0
+400,50,1,93,Nor Nhoo,0
+401,50,1,93,Nor Nhoo,0
+402,29,Damnoen Saduak Floating Market,135,Family,0
+403,29,Damnoen Saduak Floating Market,135,Family,0
+404,23,Yaowarat,183,Grocery,0
+405,23,Yaowarat,97,Thor Thohng,0
+406,31,Wongwian Yai,76,Phor Pheung,0
+407,31,Wongwian Yai,28,Crocodile farm,0
+408,36,Central Department Store,135,Family,0
+409,36,Central Department Store,18,Wat Phra Pathom Chedi,0
+410,177,Pork,168,Bowling,0
+411,177,Pork,92,Mor Maa,0
+412,26,Victory Monument,15,Wat Benchamabophit,0
+413,26,Victory Monument,15,Wat Benchamabophit,0
+414,7,Hong Kong,26,Victory Monument,0
+415,7,Hong Kong,183,Grocery,0

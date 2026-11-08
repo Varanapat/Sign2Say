@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 
 BASE = Path(__file__).resolve().parent.parent
-NPY_DIR = BASE / "pose_npy"
+NPY_DIR = BASE / "data/pose_npy"
 SPLIT_JSON = BASE / "tsl_one_s_dataset_i3d.json"
 FPS, W, H = 29.97, 1280, 720             # ใช้เป็น metadata เท่านั้น
 

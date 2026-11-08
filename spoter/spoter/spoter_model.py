@@ -1,5 +1,6 @@
 
 import copy
+from types import SimpleNamespace
 import torch
 
 import torch.nn as nn
@@ -20,10 +21,11 @@ class SPOTERTransformerDecoderLayer(nn.TransformerDecoderLayer):
         super(SPOTERTransformerDecoderLayer, self).__init__(d_model, nhead, dim_feedforward, dropout, activation)
 
         del self.self_attn
+        self.self_attn = SimpleNamespace(batch_first=False)  # ให้ PyTorch 2.x อ่านค่า batch_first ได้
 
     def forward(self, tgt: torch.Tensor, memory: torch.Tensor, tgt_mask: Optional[torch.Tensor] = None,
                 memory_mask: Optional[torch.Tensor] = None, tgt_key_padding_mask: Optional[torch.Tensor] = None,
-                memory_key_padding_mask: Optional[torch.Tensor] = None) -> torch.Tensor:
+                memory_key_padding_mask: Optional[torch.Tensor] = None, **kwargs) -> torch.Tensor:
 
         tgt = tgt + self.dropout1(tgt)
         tgt = self.norm1(tgt)

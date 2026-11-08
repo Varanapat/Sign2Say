@@ -1064,8 +1064,6 @@
             }, {
               "video_id": "02_01_0028", "split": "train"
             }, {
-              "video_id": "16_01_0028", "split": "train"
-            }, {
               "video_id": "05_01_0028", "split": "val"
             }, {
               "video_id": "14_01_0028", "split": "val"
@@ -1081,6 +1079,8 @@
               "video_id": "19_01_0028", "split": "train"
             }, {
               "video_id": "09_01_0028", "split": "train"
+            },  {
+              "video_id": "25_01_0028", "split": "val"
             }
           ]
   }, {
@@ -1159,6 +1159,8 @@
               "video_id": "24_04_0134", "split": "train"
             }, {
               "video_id": "06_04_0134", "split": "train"
+            },  {
+              "video_id": "11_04_0134", "split": "val"
             }
           ]
   }, {
@@ -2781,8 +2783,6 @@
               "video_id": "29_08_0267", "split": "train"
             }, {
               "video_id": "10_08_0267", "split": "train"
-            }, {
-              "video_id": "15_08_0267", "split": "train"
             }, {
               "video_id": "06_08_0267", "split": "val"
             }, {
@@ -5591,6 +5591,8 @@
               "video_id": "13_08_0277", "split": "train"
             }, {
               "video_id": "16_08_0277", "split": "test"
+            },  {
+              "video_id": "25_08_0277", "split": "val"
             }
           ]
   }, {
@@ -5781,6 +5783,8 @@
               "video_id": "04_08_0278", "split": "train"
             }, {
               "video_id": "28_08_0278", "split": "test"
+            },  {
+              "video_id": "25_08_0278", "split": "val"
             }
           ]
   }, {
@@ -7106,8 +7110,6 @@
             }, {
               "video_id": "07_08_0266", "split": "train"
             }, {
-              "video_id": "01_08_0266", "split": "train"
-            }, {
               "video_id": "09_08_0266", "split": "train"
             }, {
               "video_id": "19_08_0266", "split": "train"
@@ -7317,8 +7319,6 @@
               "video_id": "12_01_0020", "split": "train"
             }, {
               "video_id": "13_01_0020", "split": "train"
-            }, {
-              "video_id": "16_01_0020", "split": "train"
             }, {
               "video_id": "09_01_0020", "split": "train"
             }, {

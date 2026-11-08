@@ -1,8 +1,41 @@
-# ละเว้นโฟลเดอร์ที่มีขนาดใหญ่
-TSL-ONE-S/
-pose_npy/
+# requirements.txt สำหรับ AMD
+requirements.txt/
 
-# ละเว้นไฟล์ zip และ virtual environment (แนะนำเพิ่มเติมจากโครงสร้างไฟล์ในรูป)
-pose_npy.zip
-venv/
+# ---------- Python / environment ----------
+__pycache__/
+*.py[cod]
 .venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---------- IDE / ระบบ ----------
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---------- dataset ต้นฉบับ (CC BY-NC + เห็นหน้าคนทำท่า ห้ามเผยแพร่) ----------
+TSL-ONE-S/
+*.mp4
+*.MP4
+*.mov
+*.avi
+tsl_one_s_dataset_i3d*.json
+
+# ---------- ข้อมูลที่สร้างจาก dataset (ใหญ่ และสร้างใหม่ได้) ----------
+data/*
+!data/label_map.json
+*.npy
+*.npz
+*_check*.jpg
+
+# ---------- ผลการเทรน: ไม่เอาไฟล์โมเดล แต่เก็บ log, summary และกราฟไว้ ----------
+*.pth
+*.pt
+*.ckpt
+
+# ---------- อื่น ๆ ----------
+*.bak
+*.log

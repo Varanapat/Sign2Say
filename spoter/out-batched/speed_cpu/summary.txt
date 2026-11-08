@@ -1,0 +1,23 @@
+experiment      : speed_cpu
+best val        : 3.82% (epoch 1)
+Test top-1      : 4.33% (18/416)
+Test top-5      : 9.86%
+Test macro-F1   : 0.0110
+เวลารวม         : 1.7 นาที
+
+คู่ที่ทายผิดบ่อยสุด (จริง -> ทาย : จำนวน):
+  uu -> Mor Maa : 3
+  Kor Kai -> Nor Nhoo : 3
+  Kor Kwaii -> Nor Nhoo : 3
+  Ngor Ngoo -> Nor Nhoo : 3
+  Phor Samphao -> Phor Pheung : 3
+  Yor Yuk -> Crocodile farm : 2
+  Wat Phra That Phanom -> Wat Phra Pathom Chedi : 2
+  MBK Center -> Crocodile farm : 2
+  Children -> Family : 2
+  Basketball -> Wat Benchamabophit : 2
+  Wat Pho -> Wat Benchamabophit : 2
+  Thor Tharn -> Nor Nhoo : 2
+  Friend -> Fish meat : 2
+  Swimming -> Nor Nhoo : 2
+  ai -> aii : 2

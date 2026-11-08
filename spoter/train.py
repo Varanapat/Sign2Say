@@ -4,6 +4,7 @@ import argparse
 import random
 import logging
 import torch
+from dml_adam import DmlAdam
 
 import numpy as np
 import torch.nn as nn
@@ -100,9 +101,16 @@ def train(args):
     )
 
     # Set device to CUDA only if applicable
-    device = torch.device("cpu")
-    if torch.cuda.is_available():
-        device = torch.device("cuda")
+    if os.environ.get("FORCE_CPU") == "1":
+        device = torch.device("cpu")
+        print("ใช้ CPU")
+    else:
+        try:
+            import torch_directml
+            device = torch_directml.device()
+            print("ใช้ GPU:", torch_directml.device_name(0))
+        except ImportError:
+            device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     # Construct the model
     slrt_model = SPOTER(num_classes=args.num_classes, hidden_dim=args.hidden_dim)
@@ -111,7 +119,10 @@ def train(args):
 
     # Construct the other modules
     cel_criterion = nn.CrossEntropyLoss()
-    sgd_optimizer = optim.Adam(slrt_model.parameters(), lr=args.lr) # เปลี่ยนจาก SGD เป็น Adam เพื่อปรับปรุงประสิทธิภาพการเรียนรู้
+    if device.type == "cpu":
+        sgd_optimizer = optim.Adam(slrt_model.parameters(), lr=args.lr)      # Adam มาตรฐานของ PyTorch
+    else:
+        sgd_optimizer = DmlAdam(slrt_model.parameters(), lr=args.lr)        # สำหรับ DirectML
     scheduler = optim.lr_scheduler.ReduceLROnPlateau(sgd_optimizer, factor=args.scheduler_factor, patience=args.scheduler_patience)
 
     # Ensure that the path for checkpointing and for images both exist
