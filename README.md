@@ -23,8 +23,8 @@ Paper อ้างอิง: *TSL-ONE-S: A Real-World Thai Sign Language Dataset
 | สคริปต์เทรนแบบ batch จริง `train_batched.py` (ตรวจแล้วว่าให้ผลเท่าโมเดลเดิม) | ✅ |
 | วัดความเร็ว: GPU 75 วิ/epoch, CPU 96 วิ/epoch (เดิม ~240 วิ) | ✅ |
 | พบว่า SPOTER ที่ implement จริงไม่มี positional encoding ตามเวลา (ข้อ 6.5) | ✅ |
-| เทรนจริง 80 epoch split B (มี augmentation) ด้วย `train_batched.py` | ⏳ ต่อไป |
-| ตรวจ 4 คลิปที่ชื่อไฟล์ไม่ตรง JSON (ข้อ 4.6) | ⏳ ต้องตรวจ |
+| เทรนจริง 80 epoch split B (มี augmentation) ด้วย `train_batched.py` | ✅ |
+| ตรวจ 4 คลิปที่ชื่อไฟล์ไม่ตรง JSON (ข้อ 4.6) | ✅ |
 | split A (json) สร้าง CSV ใหม่ + เทรน | ⏳ |
 
 ---
