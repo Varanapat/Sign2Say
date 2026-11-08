@@ -30,7 +30,7 @@ def find_ckpt(exp, kind, list_only):
     files = sorted(Path("out-checkpoints", exp).glob(f"checkpoint_{kind}_*.pth"),
                    key=lambda p: p.stat().st_mtime)
     if list_only or not files:
-        print(f"checkpoint ใน out-checkpoints\\{exp}:")
+        print(f"checkpoint ใน {Path('out-checkpoints', exp)}:")
         for p in sorted(Path("out-checkpoints", exp).glob("*.pth"), key=lambda p: p.stat().st_mtime):
             print(f"  {p.name:25s} {p.stat().st_mtime_ns // 10**9}")
     if not files:
@@ -77,8 +77,8 @@ def main():
     ap.add_argument("--ckpt", help="ระบุไฟล์ checkpoint เอง")
     ap.add_argument("--kind", default="v", choices=["v", "t"], help="v = เลือกจาก validation (ใช้รายงาน)")
     ap.add_argument("--list", action="store_true")
-    ap.add_argument("--csv", default=r"..\data\split_signer\tsl_test.csv")
-    ap.add_argument("--label_map", default=r"..\data\label_map.json")
+    ap.add_argument("--csv", default="../data/split_signer/tsl_test.csv")
+    ap.add_argument("--label_map", default="../data/label_map.json")
     ap.add_argument("--num_classes", type=int, default=184)
     ap.add_argument("--hidden_dim", type=int, default=108)
     ap.add_argument("--top_confused", type=int, default=15)

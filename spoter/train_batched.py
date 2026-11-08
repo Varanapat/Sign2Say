@@ -14,7 +14,8 @@ r"""
 3) เทรนจริง
      python train_batched.py --exp b16_signer_aug_80 --device dml --epochs 80 --aug
 
-ผลลัพธ์อยู่ที่ out-batched\<exp>\  (best_val.pth, log.csv, test_predictions.csv, summary.txt)
+บน macOS ใช้ --device mps (Apple Silicon) หรือ cpu
+ผลลัพธ์อยู่ที่ out-batched/<exp>/  (best_val.pth, log.csv, test_predictions.csv, summary.txt)
 """
 import argparse
 import csv
@@ -31,7 +32,7 @@ from datasets.czech_slr_dataset import CzechSLRDataset
 from spoter.spoter_model import SPOTER
 from eval_ckpt import load_names, macro_f1
 
-SPLIT_DIR = r"..\data\split_signer"
+SPLIT_DIR = "../data/split_signer"   # ใช้ / ได้ทั้ง Windows และ macOS
 
 
 # ---------------------------------------------------------------- data
@@ -75,6 +76,11 @@ def get_device(name):
         return torch.device("cpu")
     if name == "cuda":
         return torch.device("cuda")
+    if name == "mps":                       # Mac Apple Silicon (M1–M4)
+        if not torch.backends.mps.is_available():
+            raise SystemExit("MPS ใช้ไม่ได้ในเครื่องนี้ (Mac Intel?) — ใช้ --device cpu")
+        print("ใช้ GPU: Apple MPS")
+        return torch.device("mps")
     import torch_directml
     print("ใช้ GPU:", torch_directml.device_name(0))
     return torch_directml.device()
@@ -199,7 +205,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true", help="ตรวจว่า batched forward = โมเดลเดิม")
     ap.add_argument("--exp", default="b16_test")
-    ap.add_argument("--device", choices=["dml", "cpu", "cuda"], default="dml")
+    ap.add_argument("--device", choices=["dml", "cpu", "cuda", "mps"], default="dml")
     ap.add_argument("--epochs", type=int, default=80)
     ap.add_argument("--batch_size", type=int, default=16)
     ap.add_argument("--lr", type=float, default=1e-4)
@@ -209,10 +215,10 @@ def main():
     ap.add_argument("--seed", type=int, default=42)
     ap.add_argument("--num_classes", type=int, default=184)
     ap.add_argument("--hidden_dim", type=int, default=108)
-    ap.add_argument("--train_csv", default=SPLIT_DIR + r"\tsl_train.csv")
-    ap.add_argument("--val_csv", default=SPLIT_DIR + r"\tsl_val.csv")
-    ap.add_argument("--test_csv", default=SPLIT_DIR + r"\tsl_test.csv")
-    ap.add_argument("--label_map", default=r"..\data\label_map.json")
+    ap.add_argument("--train_csv", default=SPLIT_DIR + "/tsl_train.csv")
+    ap.add_argument("--val_csv", default=SPLIT_DIR + "/tsl_val.csv")
+    ap.add_argument("--test_csv", default=SPLIT_DIR + "/tsl_test.csv")
+    ap.add_argument("--label_map", default="../data/label_map.json")
     a = ap.parse_args()
     check(a) if a.check else train(a)
 

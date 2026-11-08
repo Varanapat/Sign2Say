@@ -20,7 +20,7 @@ from torch.utils.data import DataLoader, Subset
 from datasets.czech_slr_dataset import CzechSLRDataset
 from spoter.spoter_model import SPOTER
 
-DEFAULT_CSV = r"..\data\split_signer\tsl_train.csv"
+DEFAULT_CSV = "../data/split_signer/tsl_train.csv"   # ใช้ / ได้ทั้ง Windows และ macOS
 
 
 def check_data(csv):
@@ -63,6 +63,8 @@ def get_device(name):
         return torch.device("cpu")
     if name == "cuda":
         return torch.device("cuda")
+    if name == "mps":                       # Mac Apple Silicon (M1–M4)
+        return torch.device("mps")
     import torch_directml
     return torch_directml.device()
 
@@ -108,7 +110,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("mode", choices=["data", "overfit"])
     ap.add_argument("--csv", default=DEFAULT_CSV)
-    ap.add_argument("--device", choices=["cpu", "dml", "cuda"], default="cpu")
+    ap.add_argument("--device", choices=["cpu", "dml", "cuda", "mps"], default="cpu")
     ap.add_argument("--opt", choices=["torch", "dml"], default="torch")
     ap.add_argument("--lr", type=float, default=1e-4)
     ap.add_argument("--epochs", type=int, default=40)

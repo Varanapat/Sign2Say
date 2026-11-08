@@ -3,7 +3,7 @@
 คู่มือนี้สำหรับคนที่ clone repo นี้ไปแล้วอยากรัน baseline ต่อ ตั้งแต่ติดตั้งจนได้ผลบน test set
 รายละเอียดเบื้องหลัง ข้อค้นพบ และตารางผลทั้งหมดอยู่ใน [`README.md`](README.md)
 
-> คำสั่งทั้งหมดเขียนสำหรับ **Windows PowerShell** (บน macOS/Linux เปลี่ยน `\` เป็น `/` และใช้ `source .../bin/activate`)
+> คำสั่งทั้งหมดเขียนสำหรับ **Windows PowerShell** — ถ้าใช้ **macOS** ดูข้อ 11 ก่อน (คำสั่งที่ต่างกัน + `--device mps`)
 
 ---
 
@@ -116,7 +116,7 @@ Test-Path tsl_one_s_dataset_i3d.json                 # ต้องได้ Tru
 
 ข้ามการสกัดที่ใช้เวลาหลายชั่วโมง ได้ผลเหมือนกับที่ใช้ทำ baseline ทุกไฟล์
 
-1. โหลด `pose_npy.zip` จาก: **Google drive** (ลิงก์จำกัดสิทธิ์เฉพาะทีม — ข้อมูลมาจาก dataset ใบอนุญาต CC BY-NC)
+1. โหลด `pose_npy.zip` จาก: **<ใส่ลิงก์ที่นี่>** (ลิงก์จำกัดสิทธิ์เฉพาะทีม — ข้อมูลมาจาก dataset ใบอนุญาต CC BY-NC)
 2. แตกไฟล์ไว้ที่ `data/`:
    ```powershell
    Expand-Archive pose_npy.zip -DestinationPath data\ -Force
@@ -297,3 +297,63 @@ python eval_ckpt.py --exp signer_accum16
 git ls-files | Where-Object { $_ -match '\.(mp4|npy|npz|pth|pt)$|data/split|TSL-ONE-S' }
 ```
 ต้องไม่มีผลลัพธ์ แล้วค่อย `git pull --rebase origin base_line` → `git push origin base_line`
+
+---
+
+## 11. รันบน macOS
+
+ทุกขั้นตอนใช้ได้บน macOS สคริปต์ใน `spoter/` รองรับทั้ง Windows และ macOS แล้ว (path ใช้ `/`, มี `--device mps`)
+
+### 11.1 GPU บน Mac
+
+| เครื่อง | `--device` | หมายเหตุ |
+|---|---|---|
+| Apple Silicon (M1–M4) | **`mps`** | GPU ของ Mac ผ่าน PyTorch MPS |
+| Mac Intel | `cpu` | ไม่มี GPU ที่ PyTorch ใช้ได้ |
+
+- **ไม่ต้อง**ติดตั้ง `torch-directml` / `dml_adam.py` (ใช้กับ AMD บน Windows เท่านั้น — สคริปต์โหลดเฉพาะตอน `--device dml`)
+- ถ้าเจอ error ว่า operator ไม่รองรับบน MPS ให้ตั้ง `export PYTORCH_ENABLE_MPS_FALLBACK=1` แล้วรันใหม่ (ส่วนนั้นจะไปทำบน CPU)
+- ตรวจ: `python -c "import torch; print(torch.backends.mps.is_available())"` ต้องได้ `True` (Apple Silicon)
+
+### 11.2 คำสั่งที่ต่างจาก Windows
+
+| เรื่อง | Windows (PowerShell) | macOS (zsh/bash) |
+|---|---|---|
+| สร้าง venv | `python -m venv C:\venvs\sign2say` | `python3.12 -m venv ~/venvs/sign2say` |
+| เปิด venv | `C:\venvs\sign2say\Scripts\Activate.ps1` | `source ~/venvs/sign2say/bin/activate` |
+| ติดตั้ง PyTorch | ตาม GPU (ข้อ 2.2) | `pip install torch torchvision` (มี MPS ในตัว) |
+| ตั้งตัวแปร | `$env:ACCUM_STEPS="16"` | `export ACCUM_STEPS=16` |
+| ต่อบรรทัดคำสั่ง | `` ` `` (backtick) | `\` |
+| path | `..\data\split_signer\tsl_train.csv` | `../data/split_signer/tsl_train.csv` |
+| นับไฟล์ | `(Get-ChildItem data\pose_npy -Filter *.npy).Count` | `ls data/pose_npy/*.npy \| wc -l` |
+| แตก zip | `Expand-Archive pose_npy.zip -DestinationPath data\` | `unzip pose_npy.zip -d data/` |
+| กันเครื่อง sleep ตอนเทรน | ตั้งใน Power settings | `caffeinate -i python train_batched.py ...` |
+
+ติดตั้ง Python 3.12 ถ้ายังไม่มี: `brew install python@3.12` (หรือโหลดจาก python.org)
+
+### 11.3 ตัวอย่างลำดับคำสั่งบน Mac (Apple Silicon)
+
+```bash
+git clone https://github.com/Varanapat/Sign2Say.git && cd Sign2Say
+git checkout base_line
+python3.12 -m venv ~/venvs/sign2say && source ~/venvs/sign2say/bin/activate
+pip install --upgrade pip
+pip install torch torchvision pandas numpy matplotlib scikit-learn tqdm opencv-python mediapipe==0.10.14
+
+# วาง data/videos/ และ tsl_one_s_dataset_i3d.json (ข้อ 3) แล้วเอา pose (ข้อ 4A)
+unzip pose_npy.zip -d data/
+ls data/pose_npy/*.npy | wc -l          # ต้องได้ 4152
+
+python tools/make_csv.py --split-mode signer
+
+cd spoter
+python train_batched.py --check
+python train_batched.py --exp smoke --device mps --epochs 1
+caffeinate -i python train_batched.py --exp b16_signer_aug_80 --device mps --epochs 80 --aug
+```
+
+### 11.4 ข้อควรระวังบน Mac
+
+- สคริปต์ใน `tools/` (`extract_pose.py`, `make_csv.py`) ถ้าเขียน path แบบ Windows (`\`) ไว้ ต้องแก้เป็น `/` ก่อน — ตรวจด้วย `grep -n '\\\\' tools/*.py`
+- ผลบน MPS อาจต่างจาก Windows/CUDA เล็กน้อยแม้ seed เดียวกัน (ลำดับการคำนวณต่างกัน) — บันทึก device ในตารางผล README ทุกครั้ง
+- ถ้า `pip install mediapipe==0.10.14` ไม่เจอ wheel ให้เช็คว่าใช้ Python 3.12 (`python --version`) ไม่ใช่ 3.13
