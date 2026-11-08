@@ -144,10 +144,9 @@ python tools/extract_pose.py              # ทั้งชุด (นานห�
 - ข้อความ log ยาว ๆ จาก MediaPipe/protobuf เป็น warning ปกติ
 - เสียบสายชาร์จและตั้งไม่ให้เครื่อง sleep
 
-ตรวจว่าสคริปต์อ่านวิดีโอจาก `data/videos` และเขียน/อ่าน pose ที่ `data/pose_npy` ตรงกัน:
-```powershell
-Select-String -Path tools\extract_pose.py, tools\make_csv.py -Pattern "pose_npy|videos|TSL-ONE-S"
-```
+- ค่าเริ่มต้น: อ่านวิดีโอจาก `data/videos/` เขียนไปที่ `data/pose_npy/` (ตรงกับที่ `make_csv.py` อ่าน)
+- ถ้าวางวิดีโอไว้ที่อื่น: `python tools/extract_pose.py --video_dir <โฟลเดอร์วิดีโอ>`
+- จบแล้วสคริปต์จะพิมพ์จำนวน `.npy` และคลิปที่ล้มเหลว (ถ้ามี)
 
 ตรวจว่าครบ:
 ```powershell
@@ -354,6 +353,7 @@ caffeinate -i python train_batched.py --exp b16_signer_aug_80 --device mps --epo
 
 ### 11.4 ข้อควรระวังบน Mac
 
-- สคริปต์ใน `tools/` (`extract_pose.py`, `make_csv.py`) ถ้าเขียน path แบบ Windows (`\`) ไว้ ต้องแก้เป็น `/` ก่อน — ตรวจด้วย `grep -n '\\\\' tools/*.py`
+- สคริปต์ใน `tools/` ใช้ `pathlib` อยู่แล้ว รันบน Mac ได้เลย (`extract_pose.py` อ่าน `.mp4`/`.MP4` ได้ทั้งคู่)
+- `extract_pose.py` ต้องใช้ `mediapipe==0.10.14` (รุ่นใหม่ไม่มี `mp.solutions`)
 - ผลบน MPS อาจต่างจาก Windows/CUDA เล็กน้อยแม้ seed เดียวกัน (ลำดับการคำนวณต่างกัน) — บันทึก device ในตารางผล README ทุกครั้ง
 - ถ้า `pip install mediapipe==0.10.14` ไม่เจอ wheel ให้เช็คว่าใช้ Python 3.12 (`python --version`) ไม่ใช่ 3.13
