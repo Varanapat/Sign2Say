@@ -1,0 +1,23 @@
+experiment      : A2_spoter_pe
+best val        : 75.24% (epoch 32)
+Test top-1      : 67.07% (279/416)
+Test top-5      : 90.62%
+Test macro-F1   : 0.6527
+เวลารวม         : 25.4 นาที
+
+คู่ที่ทายผิดบ่อยสุด (จริง -> ทาย : จำนวน):
+  Kor Kai -> Gor Gai : 3
+  Lor Ling -> Uncle (Mother's or father's older brother) : 3
+  Yor Yuk -> Relative : 2
+  Wat Phra That Doi Suthep -> Parent : 2
+  Hor Nok Hoog -> Aunt (Mother's or father's older sister) : 2
+  Takraw -> Weight throwing : 2
+  i -> u : 2
+  Dor Cha-Daa -> Kor Kai : 2
+  Petanque -> Discus throwing : 2
+  Sor Saalaa -> Thor Thoong : 2
+  Sor Rue Si -> Thor Tharn : 2
+  Tor Thaharn -> Ngor Ngoo : 2
+  Yor Yuk -> ai : 1
+  LGBTQ+ -> Great-grandfather : 1
+  LGBTQ+ -> Discus throwing : 1

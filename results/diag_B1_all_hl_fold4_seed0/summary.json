@@ -1,0 +1,36 @@
+{
+ "exp": "diag_B1_all_hl",
+ "level": "L1",
+ "modality": "landmark",
+ "fold": 4,
+ "seed": 0,
+ "input": "54 joints x 9 ch (all + hand_local), T=64",
+ "params": 2191288,
+ "best_epoch": 38,
+ "val": {
+  "top1": 0.7548,
+  "top5": 0.9447,
+  "macro_f1": 0.7318
+ },
+ "test": {
+  "top1": 0.7139,
+  "top5": 0.8966,
+  "macro_f1": 0.698
+ },
+ "train_minutes": 9.16,
+ "latency_ms_b1": 9.646,
+ "device": "Apple M4 (MPS)",
+ "model": "B1",
+ "hparams": {
+  "epochs": 100,
+  "patience": 20,
+  "batch_size": 32,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "aug": true,
+  "aug_prob": 0.5,
+  "noise_std": 0.006,
+  "hand_local": true,
+  "channels": "all"
+ }
+}

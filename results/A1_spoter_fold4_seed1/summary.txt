@@ -1,0 +1,23 @@
+experiment      : A1_spoter
+best val        : 79.09% (epoch 64)
+Test top-1      : 73.08% (304/416)
+Test top-5      : 87.26%
+Test macro-F1   : 0.7055
+เวลารวม         : 38.2 นาที
+
+คู่ที่ทายผิดบ่อยสุด (จริง -> ทาย : จำนวน):
+  Yor Yuk -> Relative : 3
+  Wor Whaen -> 6 : 3
+  Takraw -> Weight throwing : 2
+  i -> u : 2
+  Ror Rua -> Gor Gai : 2
+  Petanque -> 5 : 2
+  Or Aang -> Aunt (Mother's younger brother) : 2
+  Cambodia -> Petanque : 2
+  Grandma -> Grandmother : 2
+  Tor Thaharn -> Grandpa : 2
+  LGBTQ+ -> Macau : 1
+  Tomboy -> Pork : 1
+  Tomboy -> Macau : 1
+  Aunt (Mother's younger brother) -> Tor Tao : 1
+  Aunt (Mother's or father's older sister) -> Thor Thoong : 1

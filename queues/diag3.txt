@@ -1,0 +1,3 @@
+# diag รอบ 3: ตัดสินระหว่าง 2 สูตรที่ val ใกล้กัน ด้วย seed เพิ่ม (เลือกจาก mean val F1 ของ seed 0, 1)
+B B1 diag_B1_xymask_hl 4 1 --aug --channels xy_mask --hand_local
+B B1 diag_B1_all_hl 4 1 --aug --hand_local

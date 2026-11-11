@@ -1,0 +1,23 @@
+experiment      : A2_spoter_pe
+best val        : 79.33% (epoch 68)
+Test top-1      : 72.84% (303/416)
+Test top-5      : 90.62%
+Test macro-F1   : 0.6968
+เวลารวม         : 40.8 นาที
+
+คู่ที่ทายผิดบ่อยสุด (จริง -> ทาย : จำนวน):
+  LGBTQ+ -> Taiwan : 1
+  Tomboy -> Pork : 1
+  Tomboy -> Petanque : 1
+  Volleyball -> Government House : 1
+  Aunt (Mother's younger brother) -> Uncle (Father's younger brother) : 1
+  Older sister -> Amporn Gardens : 1
+  Wrestling -> Chess : 1
+  Male -> Older brother : 1
+  Wat Pho -> Bowling : 1
+  uu -> Ror Rua : 1
+  Swimming -> Tor Thaharn : 1
+  Country -> Train Night Market : 1
+  aii -> o : 1
+  Kor Kai -> Gor Gai : 1
+  ai -> Grandmother : 1

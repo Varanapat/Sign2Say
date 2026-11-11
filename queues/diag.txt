@@ -1,0 +1,3 @@
+# หาสาเหตุที่ B1 ตามหลังทีม — ดูผลที่ val top-1 (ไม่ใช่ test)
+B B1 diag_B1_xymask 4 0 --aug --channels xy_mask
+B B1 diag_B1_lr3e-4 4 0 --aug --lr 3e-4

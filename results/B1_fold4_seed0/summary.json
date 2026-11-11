@@ -1,0 +1,31 @@
+{
+ "exp": "B1",
+ "level": "L1",
+ "modality": "landmark",
+ "fold": 4,
+ "seed": 0,
+ "input": "54 joints x 7 ch (all), T=64",
+ "params": 2163640,
+ "best_epoch": 73,
+ "val": {
+  "top1": 0.6418,
+  "top5": 0.8846,
+  "macro_f1": 0.6224
+ },
+ "test": {
+  "top1": 0.6082,
+  "top5": 0.8413,
+  "macro_f1": 0.5976
+ },
+ "train_minutes": 11.66,
+ "latency_ms_b1": 10.0,
+ "device": "Apple M4 (MPS)",
+ "model": "B1",
+ "hparams": {
+  "epochs": 100,
+  "patience": 20,
+  "batch_size": 32,
+  "lr": 0.001,
+  "weight_decay": 0.0001
+ }
+}

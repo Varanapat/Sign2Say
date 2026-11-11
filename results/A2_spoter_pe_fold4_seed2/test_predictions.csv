@@ -1,0 +1,417 @@
+﻿idx,true_id,true_name,pred_id,pred_name,correct
+0,90,Yor Yuk,133,Relative,0
+1,90,Yor Yuk,107,ai,0
+2,90,Yor Yuk,133,Relative,0
+3,112,Mom,112,Mom,1
+4,112,Mom,112,Mom,1
+5,142,LGBTQ+,118,Great-grandfather,0
+6,142,LGBTQ+,161,Discus throwing,0
+7,17,Wat Phra That Phanom,17,Wat Phra That Phanom,1
+8,17,Wat Phra That Phanom,17,Wat Phra That Phanom,1
+9,144,Tomboy,177,Pork,0
+10,144,Tomboy,144,Tomboy,1
+11,148,Volleyball,148,Volleyball,1
+12,148,Volleyball,25,Government House,0
+13,37,MBK Center,37,MBK Center,1
+14,37,MBK Center,37,MBK Center,1
+15,94,Nor Nayn,66,Thor Tharn,0
+16,94,Nor Nayn,60,Gor Gai,0
+17,94,Nor Nayn,94,Nor Nayn,1
+18,125,Aunt (Mother's younger brother),101,Or Aang,0
+19,125,Aunt (Mother's younger brother),124,Uncle (Father's younger brother),0
+20,127,Close friend,127,Close friend,1
+21,127,Close friend,127,Close friend,1
+22,97,Thor Thohng,97,Thor Thohng,1
+23,97,Thor Thohng,97,Thor Thohng,1
+24,97,Thor Thohng,123,Aunt (Mother's or father's older sister),0
+25,123,Aunt (Mother's or father's older sister),123,Aunt (Mother's or father's older sister),1
+26,123,Aunt (Mother's or father's older sister),123,Aunt (Mother's or father's older sister),1
+27,100,Chor Cher,100,Chor Cher,1
+28,100,Chor Cher,100,Chor Cher,1
+29,100,Chor Cher,100,Chor Cher,1
+30,131,Older sister,118,Great-grandfather,0
+31,131,Older sister,131,Older sister,1
+32,113,Children,113,Children,1
+33,113,Children,113,Children,1
+34,67,Thor Phoo Thao,67,Thor Phoo Thao,1
+35,67,Thor Phoo Thao,67,Thor Phoo Thao,1
+36,67,Thor Phoo Thao,67,Thor Phoo Thao,1
+37,170,Sailboat,170,Sailboat,1
+38,170,Sailboat,13,Wat Pho,0
+39,74,Phor Phaan,74,Phor Phaan,1
+40,74,Phor Phaan,74,Phor Phaan,1
+41,74,Phor Phaan,74,Phor Phaan,1
+42,147,Basketball,147,Basketball,1
+43,147,Basketball,147,Basketball,1
+44,22,Hua Lamphong Railway Station,22,Hua Lamphong Railway Station,1
+45,22,Hua Lamphong Railway Station,22,Hua Lamphong Railway Station,1
+46,151,Wrestling,151,Wrestling,1
+47,151,Wrestling,151,Wrestling,1
+48,11,Israel,11,Israel,1
+49,137,Male,130,Younger brother,0
+50,137,Male,137,Male,1
+51,13,Wat Pho,13,Wat Pho,1
+52,13,Wat Pho,13,Wat Pho,1
+53,111,Dad,111,Dad,1
+54,111,Dad,111,Dad,1
+55,135,Family,135,Family,1
+56,135,Family,135,Family,1
+57,115,Grandmother,117,Grandma,0
+58,115,Grandmother,119,Great-grandmother,0
+59,105,uu,105,uu,1
+60,105,uu,105,uu,1
+61,105,uu,105,uu,1
+62,161,Discus throwing,161,Discus throwing,1
+63,161,Discus throwing,161,Discus throwing,1
+64,44,Chatuchak Weekend Market,44,Chatuchak Weekend Market,1
+65,44,Chatuchak Weekend Market,151,Wrestling,0
+66,116,Grandpa,116,Grandpa,1
+67,116,Grandpa,116,Grandpa,1
+68,66,Thor Tharn,66,Thor Tharn,1
+69,66,Thor Tharn,66,Thor Tharn,1
+70,66,Thor Tharn,66,Thor Tharn,1
+71,12,Wat Phra Kaew,12,Wat Phra Kaew,1
+72,12,Wat Phra Kaew,12,Wat Phra Kaew,1
+73,126,Friend,126,Friend,1
+74,126,Friend,126,Friend,1
+75,164,Swimming,164,Swimming,1
+76,164,Swimming,164,Swimming,1
+77,56,7,56,7,1
+78,56,7,56,7,1
+79,0,Country,29,Damnoen Saduak Floating Market,0
+80,0,Country,0,Country,1
+81,108,aii,108,aii,1
+82,108,aii,108,aii,1
+83,108,aii,108,aii,1
+84,61,Kor Kai,60,Gor Gai,0
+85,61,Kor Kai,60,Gor Gai,0
+86,61,Kor Kai,60,Gor Gai,0
+87,107,ai,107,ai,1
+88,107,ai,108,aii,0
+89,107,ai,107,ai,1
+90,19,Wat Phra That Doi Suthep,136,Parent,0
+91,19,Wat Phra That Doi Suthep,136,Parent,0
+92,57,8,57,8,1
+93,57,8,57,8,1
+94,40,Future Park Rangsit,80,Bor Bai Mai,0
+95,40,Future Park Rangsit,40,Future Park Rangsit,1
+96,133,Relative,132,Younger sister,0
+97,133,Relative,91,Yor Ying,0
+98,60,Gor Gai,60,Gor Gai,1
+99,60,Gor Gai,60,Gor Gai,1
+100,60,Gor Gai,62,Kor Kwaii,0
+101,132,Younger sister,138,Female,0
+102,132,Younger sister,132,Younger sister,1
+103,3,Myanmar,3,Myanmar,1
+104,3,Myanmar,3,Myanmar,1
+105,51,2,51,2,1
+106,51,2,51,2,1
+107,175,Century egg,19,Wat Phra That Doi Suthep,0
+108,175,Century egg,175,Century egg,1
+109,140,Transgender,47,Dreamworld,0
+110,140,Transgender,137,Male,0
+111,32,Lumphini Park,32,Lumphini Park,1
+112,32,Lumphini Park,32,Lumphini Park,1
+113,85,For Fun,40,Future Park Rangsit,0
+114,85,For Fun,85,For Fun,1
+115,85,For Fun,58,9,0
+116,79,Hor Nok Hoog,123,Aunt (Mother's or father's older sister),0
+117,79,Hor Nok Hoog,79,Hor Nok Hoog,1
+118,79,Hor Nok Hoog,123,Aunt (Mother's or father's older sister),0
+119,155,Table Tennis,155,Table Tennis,1
+120,155,Table Tennis,154,Tennis,0
+121,68,Thor Mon-Tho,68,Thor Mon-Tho,1
+122,68,Thor Mon-Tho,53,4,0
+123,68,Thor Mon-Tho,68,Thor Mon-Tho,1
+124,119,Great-grandmother,117,Grandma,0
+125,119,Great-grandmother,118,Great-grandfather,0
+126,110,Wife,110,Wife,1
+127,110,Wife,109,Husband,0
+128,121,Great-grandchild,87,Lor Ling,0
+129,121,Great-grandchild,121,Great-grandchild,1
+130,141,Gender,141,Gender,1
+131,141,Gender,132,Younger sister,0
+132,160,Weight throwing,160,Weight throwing,1
+133,160,Weight throwing,160,Weight throwing,1
+134,9,Taiwan,9,Taiwan,1
+135,9,Taiwan,144,Tomboy,0
+136,149,Takraw,160,Weight throwing,0
+137,149,Takraw,160,Weight throwing,0
+138,63,Kor Ra-Kung,63,Kor Ra-Kung,1
+139,63,Kor Ra-Kung,63,Kor Ra-Kung,1
+140,63,Kor Ra-Kung,60,Gor Gai,0
+141,179,Beef,179,Beef,1
+142,179,Beef,178,Wild boar meat,0
+143,173,Chicken egg,19,Wat Phra That Doi Suthep,0
+144,173,Chicken egg,173,Chicken egg,1
+145,76,Phor Pheung,76,Phor Pheung,1
+146,76,Phor Pheung,76,Phor Pheung,1
+147,76,Phor Pheung,76,Phor Pheung,1
+148,64,Tor Tao,64,Tor Tao,1
+149,64,Tor Tao,64,Tor Tao,1
+150,64,Tor Tao,65,Thor Thoong,0
+151,139,Gay,139,Gay,1
+152,139,Gay,139,Gay,1
+153,83,Dor Dek,83,Dor Dek,1
+154,83,Dor Dek,122,Uncle (Mother's or father's older brother),0
+155,83,Dor Dek,83,Dor Dek,1
+156,102,i,104,u,0
+157,102,i,104,u,0
+158,102,i,102,i,1
+159,5,Vietnam,5,Vietnam,1
+160,5,Vietnam,5,Vietnam,1
+161,92,Mor Maa,92,Mor Maa,1
+162,92,Mor Maa,92,Mor Maa,1
+163,92,Mor Maa,92,Mor Maa,1
+164,134,Cousin,160,Weight throwing,0
+165,134,Cousin,134,Cousin,1
+166,70,Sor Sua,70,Sor Sua,1
+167,70,Sor Sua,70,Sor Sua,1
+168,70,Sor Sua,70,Sor Sua,1
+169,86,Fhor Fhaa,86,Fhor Fhaa,1
+170,86,Fhor Fhaa,86,Fhor Fhaa,1
+171,86,Fhor Fhaa,86,Fhor Fhaa,1
+172,99,Chor Chaang,175,Century egg,0
+173,99,Chor Chaang,99,Chor Chaang,1
+174,99,Chor Chaang,99,Chor Chaang,1
+175,181,Venison,181,Venison,1
+176,181,Venison,180,Mutton,0
+177,145,Ladyboy,145,Ladyboy,1
+178,145,Ladyboy,126,Friend,0
+179,165,Archery,165,Archery,1
+180,165,Archery,148,Volleyball,0
+181,158,Running,158,Running,1
+182,158,Running,158,Running,1
+183,169,Golf,152,Judo,0
+184,169,Golf,154,Tennis,0
+185,25,Government House,25,Government House,1
+186,25,Government House,25,Government House,1
+187,154,Tennis,162,Javelin throwing,0
+188,154,Tennis,48,Safari World,0
+189,136,Parent,19,Wat Phra That Doi Suthep,0
+190,136,Parent,142,LGBTQ+,0
+191,46,Siam Amazing Park,46,Siam Amazing Park,1
+192,46,Siam Amazing Park,115,Grandmother,0
+193,80,Bor Bai Mai,80,Bor Bai Mai,1
+194,80,Bor Bai Mai,80,Bor Bai Mai,1
+195,80,Bor Bai Mai,80,Bor Bai Mai,1
+196,109,Husband,109,Husband,1
+197,109,Husband,109,Husband,1
+198,81,Ror Rua,51,2,0
+199,81,Ror Rua,60,Gor Gai,0
+200,81,Ror Rua,62,Kor Kwaii,0
+201,152,Judo,152,Judo,1
+202,152,Judo,152,Judo,1
+203,84,Dor Cha-Daa,50,1,0
+204,84,Dor Cha-Daa,61,Kor Kai,0
+205,84,Dor Cha-Daa,61,Kor Kai,0
+206,138,Female,138,Female,1
+207,138,Female,138,Female,1
+208,106,o,106,o,1
+209,106,o,106,o,1
+210,106,o,106,o,1
+211,1,Thailand,3,Myanmar,0
+212,1,Thailand,1,Thailand,1
+213,180,Mutton,179,Beef,0
+214,180,Mutton,180,Mutton,1
+215,75,Por Plaa,75,Por Plaa,1
+216,75,Por Plaa,75,Por Plaa,1
+217,75,Por Plaa,75,Por Plaa,1
+218,45,Train Night Market,45,Train Night Market,1
+219,45,Train Night Market,148,Volleyball,0
+220,104,u,104,u,1
+221,104,u,103,ee,0
+222,104,u,104,u,1
+223,35,Siam Square,35,Siam Square,1
+224,35,Siam Square,35,Siam Square,1
+225,178,Wild boar meat,177,Pork,0
+226,178,Wild boar meat,178,Wild boar meat,1
+227,38,Robinson Department Store,38,Robinson Department Store,1
+228,38,Robinson Department Store,38,Robinson Department Store,1
+229,62,Kor Kwaii,62,Kor Kwaii,1
+230,62,Kor Kwaii,62,Kor Kwaii,1
+231,62,Kor Kwaii,62,Kor Kwaii,1
+232,49,0,49,0,1
+233,49,0,49,0,1
+234,182,Fish meat,182,Fish meat,1
+235,182,Fish meat,181,Venison,0
+236,21,Giant Swing,21,Giant Swing,1
+237,21,Giant Swing,21,Giant Swing,1
+238,159,High Jump,152,Judo,0
+239,159,High Jump,159,High Jump,1
+240,15,Wat Benchamabophit,18,Wat Phra Pathom Chedi,0
+241,15,Wat Benchamabophit,15,Wat Benchamabophit,1
+242,128,Girlfriend,155,Table Tennis,0
+243,128,Girlfriend,76,Phor Pheung,0
+244,58,9,58,9,1
+245,58,9,58,9,1
+246,34,Chatuchak Park,34,Chatuchak Park,1
+247,34,Chatuchak Park,151,Wrestling,0
+248,65,Thor Thoong,65,Thor Thoong,1
+249,65,Thor Thoong,101,Or Aang,0
+250,65,Thor Thoong,65,Thor Thoong,1
+251,47,Dreamworld,47,Dreamworld,1
+252,47,Dreamworld,47,Dreamworld,1
+253,30,Amporn Gardens,160,Weight throwing,0
+254,30,Amporn Gardens,30,Amporn Gardens,1
+255,129,Older brother,141,Gender,0
+256,129,Older brother,129,Older brother,1
+257,95,Ngor Ngoo,95,Ngor Ngoo,1
+258,95,Ngor Ngoo,95,Ngor Ngoo,1
+259,95,Ngor Ngoo,94,Nor Nayn,0
+260,166,Cycling,166,Cycling,1
+261,166,Cycling,166,Cycling,1
+262,16,Temple of the Golden Mount,16,Temple of the Golden Mount,1
+263,16,Temple of the Golden Mount,16,Temple of the Golden Mount,1
+264,130,Younger brother,130,Younger brother,1
+265,130,Younger brother,130,Younger brother,1
+266,87,Lor Ling,122,Uncle (Mother's or father's older brother),0
+267,87,Lor Ling,122,Uncle (Mother's or father's older brother),0
+268,87,Lor Ling,122,Uncle (Mother's or father's older brother),0
+269,143,Lesbian,143,Lesbian,1
+270,143,Lesbian,143,Lesbian,1
+271,20,Sanam Luang,153,Badminton,0
+272,20,Sanam Luang,162,Javelin throwing,0
+273,157,Petanque,161,Discus throwing,0
+274,157,Petanque,161,Discus throwing,0
+275,78,Hor Heep,78,Hor Heep,1
+276,78,Hor Heep,120,Grandchild,0
+277,78,Hor Heep,164,Swimming,0
+278,69,Tor Pa-Tuk,69,Tor Pa-Tuk,1
+279,69,Tor Pa-Tuk,69,Tor Pa-Tuk,1
+280,69,Tor Pa-Tuk,69,Tor Pa-Tuk,1
+281,43,Big C,43,Big C,1
+282,43,Big C,43,Big C,1
+283,101,Or Aang,125,Aunt (Mother's younger brother),0
+284,101,Or Aang,61,Kor Kai,0
+285,101,Or Aang,116,Grandpa,0
+286,33,The Memorial Monument of Thao Suranaree,33,The Memorial Monument of Thao Suranaree,1
+287,33,The Memorial Monument of Thao Suranaree,3,Myanmar,0
+288,103,ee,102,i,0
+289,103,ee,104,u,0
+290,103,ee,84,Dor Cha-Daa,0
+291,6,China,6,China,1
+292,6,China,6,China,1
+293,172,Egg,172,Egg,1
+294,172,Egg,172,Egg,1
+295,146,Football,146,Football,1
+296,146,Football,146,Football,1
+297,98,Chor Ching,98,Chor Ching,1
+298,98,Chor Ching,164,Swimming,0
+299,98,Chor Ching,98,Chor Ching,1
+300,53,4,53,4,1
+301,53,4,53,4,1
+302,8,Macau,8,Macau,1
+303,8,Macau,139,Gay,0
+304,183,Grocery,183,Grocery,1
+305,183,Grocery,182,Fish meat,0
+306,168,Bowling,161,Discus throwing,0
+307,168,Bowling,168,Bowling,1
+308,48,Safari World,48,Safari World,1
+309,48,Safari World,157,Petanque,0
+310,41,Makro,41,Makro,1
+311,41,Makro,100,Chor Cher,0
+312,167,Chess,29,Damnoen Saduak Floating Market,0
+313,167,Chess,167,Chess,1
+314,91,Yor Ying,91,Yor Ying,1
+315,91,Yor Ying,91,Yor Ying,1
+316,91,Yor Ying,91,Yor Ying,1
+317,55,6,55,6,1
+318,55,6,55,6,1
+319,28,Crocodile farm,147,Basketball,0
+320,28,Crocodile farm,28,Crocodile farm,1
+321,163,Shooting,6,China,0
+322,163,Shooting,163,Shooting,1
+323,54,5,54,5,1
+324,54,5,54,5,1
+325,27,Democracy Monument,27,Democracy Monument,1
+326,27,Democracy Monument,25,Government House,0
+327,118,Great-grandfather,118,Great-grandfather,1
+328,118,Great-grandfather,118,Great-grandfather,1
+329,122,Uncle (Mother's or father's older brother),122,Uncle (Mother's or father's older brother),1
+330,122,Uncle (Mother's or father's older brother),122,Uncle (Mother's or father's older brother),1
+331,71,Sor Saalaa,71,Sor Saalaa,1
+332,71,Sor Saalaa,65,Thor Thoong,0
+333,71,Sor Saalaa,65,Thor Thoong,0
+334,176,Salted egg,176,Salted egg,1
+335,176,Salted egg,139,Gay,0
+336,10,Pakistan,10,Pakistan,1
+337,10,Pakistan,10,Pakistan,1
+338,156,Gymnastic,156,Gymnastic,1
+339,156,Gymnastic,156,Gymnastic,1
+340,82,Wor Whaen,82,Wor Whaen,1
+341,82,Wor Whaen,82,Wor Whaen,1
+342,82,Wor Whaen,82,Wor Whaen,1
+343,2,Laos,2,Laos,1
+344,2,Laos,2,Laos,1
+345,59,10,59,10,1
+346,59,10,59,10,1
+347,73,Sor So,73,Sor So,1
+348,73,Sor So,73,Sor So,1
+349,73,Sor So,73,Sor So,1
+350,114,Grandfather,123,Aunt (Mother's or father's older sister),0
+351,114,Grandfather,61,Kor Kai,0
+352,93,Nor Nhoo,93,Nor Nhoo,1
+353,93,Nor Nhoo,66,Thor Tharn,0
+354,93,Nor Nhoo,93,Nor Nhoo,1
+355,162,Javelin throwing,162,Javelin throwing,1
+356,162,Javelin throwing,162,Javelin throwing,1
+357,72,Sor Rue Si,66,Thor Tharn,0
+358,72,Sor Rue Si,72,Sor Rue Si,1
+359,72,Sor Rue Si,66,Thor Tharn,0
+360,124,Uncle (Father's younger brother),93,Nor Nhoo,0
+361,124,Uncle (Father's younger brother),124,Uncle (Father's younger brother),1
+362,4,Cambodia,4,Cambodia,1
+363,4,Cambodia,161,Discus throwing,0
+364,24,Bang Lamphu,24,Bang Lamphu,1
+365,24,Bang Lamphu,24,Bang Lamphu,1
+366,153,Badminton,152,Judo,0
+367,153,Badminton,153,Badminton,1
+368,117,Grandma,117,Grandma,1
+369,117,Grandma,117,Grandma,1
+370,96,Tor Thaharn,95,Ngor Ngoo,0
+371,96,Tor Thaharn,95,Ngor Ngoo,0
+372,96,Tor Thaharn,96,Tor Thaharn,1
+373,171,Sport,171,Sport,1
+374,171,Sport,171,Sport,1
+375,88,Lor Chulaa,88,Lor Chulaa,1
+376,88,Lor Chulaa,88,Lor Chulaa,1
+377,88,Lor Chulaa,88,Lor Chulaa,1
+378,42,Tesco Lotus,42,Tesco Lotus,1
+379,42,Tesco Lotus,42,Tesco Lotus,1
+380,18,Wat Phra Pathom Chedi,18,Wat Phra Pathom Chedi,1
+381,18,Wat Phra Pathom Chedi,18,Wat Phra Pathom Chedi,1
+382,174,Duck egg,175,Century egg,0
+383,174,Duck egg,172,Egg,0
+384,89,Jor Jaan,89,Jor Jaan,1
+385,89,Jor Jaan,89,Jor Jaan,1
+386,89,Jor Jaan,89,Jor Jaan,1
+387,39,The Mall Department Store,39,The Mall Department Store,1
+388,39,The Mall Department Store,41,Makro,0
+389,150,Boxing,150,Boxing,1
+390,150,Boxing,152,Judo,0
+391,14,Wat Arun,14,Wat Arun,1
+392,14,Wat Arun,136,Parent,0
+393,52,3,52,3,1
+394,52,3,52,3,1
+395,77,Phor Samphao,77,Phor Samphao,1
+396,77,Phor Samphao,77,Phor Samphao,1
+397,77,Phor Samphao,77,Phor Samphao,1
+398,120,Grandchild,120,Grandchild,1
+399,120,Grandchild,78,Hor Heep,0
+400,50,1,61,Kor Kai,0
+401,50,1,50,1,1
+402,29,Damnoen Saduak Floating Market,152,Judo,0
+403,29,Damnoen Saduak Floating Market,29,Damnoen Saduak Floating Market,1
+404,23,Yaowarat,23,Yaowarat,1
+405,23,Yaowarat,23,Yaowarat,1
+406,31,Wongwian Yai,3,Myanmar,0
+407,31,Wongwian Yai,31,Wongwian Yai,1
+408,36,Central Department Store,36,Central Department Store,1
+409,36,Central Department Store,36,Central Department Store,1
+410,177,Pork,183,Grocery,0
+411,177,Pork,177,Pork,1
+412,26,Victory Monument,26,Victory Monument,1
+413,26,Victory Monument,26,Victory Monument,1
+414,7,Hong Kong,7,Hong Kong,1
+415,7,Hong Kong,11,Israel,0

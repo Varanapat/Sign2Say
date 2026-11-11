@@ -1,0 +1,4 @@
+# diag รอบ 2: เพิ่มพิกัดมือในกรอบของมือเอง (hand-local) — ดูผลที่ val top-1
+# เทียบกับ diag_B1_xymask (val 68.99) และ B1_aug (val 63.46)
+B B1 diag_B1_xymask_hl 4 0 --aug --channels xy_mask --hand_local
+B B1 diag_B1_all_hl 4 0 --aug --hand_local

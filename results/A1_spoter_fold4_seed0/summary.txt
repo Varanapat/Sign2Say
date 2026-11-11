@@ -1,0 +1,23 @@
+experiment      : A1_spoter
+best val        : 76.20% (epoch 67)
+Test top-1      : 71.88% (299/416)
+Test top-5      : 89.90%
+Test macro-F1   : 0.6960
+เวลารวม         : 40.8 นาที
+
+คู่ที่ทายผิดบ่อยสุด (จริง -> ทาย : จำนวน):
+  Yor Yuk -> Relative : 2
+  Dor Dek -> 1 : 2
+  Lor Ling -> Uncle (Mother's or father's older brother) : 2
+  Or Aang -> Aunt (Mother's younger brother) : 2
+  Wor Whaen -> 6 : 2
+  Grandfather -> Aunt (Mother's or father's older sister) : 2
+  Wat Arun -> Temple of the Golden Mount : 2
+  LGBTQ+ -> Great-grandfather : 1
+  LGBTQ+ -> Lesbian : 1
+  Tomboy -> Pork : 1
+  Volleyball -> Shooting : 1
+  Volleyball -> Government House : 1
+  Aunt (Mother's younger brother) -> Or Aang : 1
+  Aunt (Mother's younger brother) -> Uncle (Father's younger brother) : 1
+  Thor Thohng -> Thor Thoong : 1

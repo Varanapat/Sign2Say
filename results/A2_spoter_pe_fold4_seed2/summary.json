@@ -1,0 +1,35 @@
+{
+ "exp": "A2_spoter_pe",
+ "level": "L1",
+ "modality": "landmark",
+ "fold": 4,
+ "seed": 2,
+ "input": "54 joints x (x,y), T=64 (SPOTER normalization), pe=learned",
+ "params": 5938732,
+ "best_epoch": 32,
+ "val": {
+  "top1": 0.7524,
+  "top5": 0.9495,
+  "macro_f1": 0.7228
+ },
+ "test": {
+  "top1": 0.6707,
+  "top5": 0.9062,
+  "macro_f1": 0.6527
+ },
+ "train_minutes": 25.35,
+ "latency_ms_b1": 2.452,
+ "device": "Apple M4 (MPS)",
+ "model": "SPOTER",
+ "hparams": {
+  "epochs": 100,
+  "patience": 20,
+  "batch_size": 16,
+  "lr": 0.0001,
+  "aug": true,
+  "pe": "learned",
+  "noise_std": 0.001,
+  "frames": 64,
+  "select": "f1"
+ }
+}

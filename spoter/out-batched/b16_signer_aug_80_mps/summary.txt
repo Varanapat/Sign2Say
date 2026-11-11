@@ -1,0 +1,23 @@
+experiment      : b16_signer_aug_80
+best val        : 77.57% (epoch 57)
+Test top-1      : 73.32% (305/416)
+Test top-5      : 91.35%
+Test macro-F1   : 0.7066
+เวลารวม         : 37.6 นาที
+
+คู่ที่ทายผิดบ่อยสุด (จริง -> ทาย : จำนวน):
+  i -> 0 : 2
+  ee -> u : 2
+  Sor Rue Si -> Thor Tharn : 2
+  Grandma -> Grandmother : 2
+  Wat Arun -> Wat Benchamabophit : 2
+  Yor Yuk -> Relative : 1
+  LGBTQ+ -> Sanam Luang : 1
+  LGBTQ+ -> Thailand : 1
+  Tomboy -> Future Park Rangsit : 1
+  Tomboy -> Thailand : 1
+  Aunt (Mother's younger brother) -> Or Aang : 1
+  Aunt (Mother's younger brother) -> Nor Nhoo : 1
+  Aunt (Mother's or father's older sister) -> Thor Thoong : 1
+  Older sister -> Century egg : 1
+  Sailboat -> Wat Pho : 1

@@ -1,0 +1,23 @@
+experiment      : A2_spoter_pe
+best val        : 76.68% (epoch 48)
+Test top-1      : 67.07% (279/416)
+Test top-5      : 89.42%
+Test macro-F1   : 0.6362
+เวลารวม         : 30.8 นาที
+
+คู่ที่ทายผิดบ่อยสุด (จริง -> ทาย : จำนวน):
+  Yor Yuk -> Relative : 2
+  Wat Phra That Phanom -> Wat Phra Pathom Chedi : 2
+  Wrestling -> The Memorial Monument of Thao Suranaree : 2
+  Grandmother -> Grandma : 2
+  Gor Gai -> Kor Kai : 2
+  i -> u : 2
+  9 -> Future Park Rangsit : 2
+  Petanque -> Cambodia : 2
+  ee -> u : 2
+  Football -> Cambodia : 2
+  Yor Ying -> Relative : 2
+  Sor Saalaa -> Thor Thoong : 2
+  Wat Arun -> Wat Phra Kaew : 2
+  Yor Yuk -> ai : 1
+  LGBTQ+ -> Wife : 1

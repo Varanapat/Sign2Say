@@ -1,0 +1,8 @@
+# Part C (RGB) บน fold 4 — ต้องตัดเฟรมก่อน: python tools/extract_frames.py
+# budget ร่วม: 30 epoch (patience 10), 16 เฟรม × 112², AdamW lr 1e-4, batch 8 — ใช้ python -m experiments.train_rgb
+# รอบแรกดาวน์โหลด pretrained weights อัตโนมัติ (~45 MB ResNet-18, ~120 MB ต่อ 3D model)
+# ลำดับตาม brief: C2 -> C3 -> C4 -> C1 (seed 0 ก่อน)
+R C2 C2 4 0
+R C3 C3 4 0
+R C4 C4 4 0
+R C1 C1 4 0

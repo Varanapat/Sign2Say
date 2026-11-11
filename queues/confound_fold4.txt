@@ -1,0 +1,11 @@
+# แยกตัวแปรกวนของ B3 (ST-GCN) — สูตรเดียวกับ Part B ทุกอย่าง
+#   B6 = GCN ต่อเฟรม -> BiGRU   (L1 + graph prior)   เทียบ B1 -> ผลของ graph prior
+#                                                    เทียบ B3 -> ผลของ "พร้อมกัน" เมื่อมี graph prior ทั้งคู่
+#   B4 = divided space-time attention (L2, ไม่มี graph prior) เทียบ B2 -> ผลของ L2 เมื่อไม่มี graph prior
+# เวลาโดยประมาณบน M4: ~1 นาที/epoch ทั้งคู่ -> ~1–1.7 ชม./run, ทั้งคิว ~6–10 ชม.
+B B6 B6_hl 4 0 --aug --channels xy_mask --hand_local
+B B4 B4_hl 4 0 --aug --channels xy_mask --hand_local
+B B6 B6_hl 4 1 --aug --channels xy_mask --hand_local
+B B4 B4_hl 4 1 --aug --channels xy_mask --hand_local
+B B6 B6_hl 4 2 --aug --channels xy_mask --hand_local
+B B4 B4_hl 4 2 --aug --channels xy_mask --hand_local

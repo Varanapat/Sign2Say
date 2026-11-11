@@ -1,0 +1,17 @@
+# Part B บน fold 4 × seed 0, 1, 2 — สูตรที่เลือกจาก val (diag รอบ 1–3, 2026-11-10):
+#   --aug --channels xy_mask --hand_local   (AdamW lr 1e-3, batch 32, 100 epoch, patience 20)
+# B1_hl seed 0, 1 มีผลแล้ว (คัดลอกจาก diag_B1_xymask_hl) -> คิวจะข้ามให้เอง
+# เวลาโดยประมาณบน M4: B0 ~3 นาที, B1 ~10, B2 ~15, B3 ~1.5–2.5 ชม. (89 วินาที/epoch) ต่อ run
+# seed 0 ของทุกโมเดลก่อน -> ได้ผลเบื้องต้นครบเร็วที่สุด
+B B0 B0_hl 4 0 --aug --channels xy_mask --hand_local
+B B1 B1_hl 4 0 --aug --channels xy_mask --hand_local
+B B2 B2_hl 4 0 --aug --channels xy_mask --hand_local
+B B3 B3_hl 4 0 --aug --channels xy_mask --hand_local
+B B0 B0_hl 4 1 --aug --channels xy_mask --hand_local
+B B1 B1_hl 4 1 --aug --channels xy_mask --hand_local
+B B2 B2_hl 4 1 --aug --channels xy_mask --hand_local
+B B3 B3_hl 4 1 --aug --channels xy_mask --hand_local
+B B0 B0_hl 4 2 --aug --channels xy_mask --hand_local
+B B1 B1_hl 4 2 --aug --channels xy_mask --hand_local
+B B2 B2_hl 4 2 --aug --channels xy_mask --hand_local
+B B3 B3_hl 4 2 --aug --channels xy_mask --hand_local

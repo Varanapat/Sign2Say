@@ -1,0 +1,23 @@
+experiment      : A1_spoter
+best val        : 76.68% (epoch 44)
+Test top-1      : 66.83% (278/416)
+Test top-5      : 88.46%
+Test macro-F1   : 0.6517
+เวลารวม         : 35.7 นาที
+
+คู่ที่ทายผิดบ่อยสุด (จริง -> ทาย : จำนวน):
+  Thor Thohng -> Tor Thaharn : 2
+  Kor Kai -> Gor Gai : 2
+  For Fun -> 9 : 2
+  Beef -> Wild boar meat : 2
+  Fhor Fhaa -> 9 : 2
+  Or Aang -> Aunt (Mother's younger brother) : 2
+  Sor Saalaa -> Nor Nayn : 2
+  Wor Whaen -> 6 : 2
+  Sor Rue Si -> Thor Tharn : 2
+  Yor Yuk -> Siam Square : 1
+  Mom -> Uncle (Father's younger brother) : 1
+  LGBTQ+ -> Temple of the Golden Mount : 1
+  LGBTQ+ -> Discus throwing : 1
+  Tomboy -> Pork : 1
+  Tomboy -> Thailand : 1
