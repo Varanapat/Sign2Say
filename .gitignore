@@ -1,0 +1,24 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+
+# dataset และไฟล์ที่สร้างจาก dataset (สัญญาอนุญาต NC และใหญ่)
+TSL-ONE-S/
+TSL-ONE-S.zip
+Source(Paper)/
+One-Stage-TFS*/
+tsl_one_s_dataset_i3d.json
+*.mp4
+dataset/features/
+*.npz
+
+# ผลที่ใหญ่
+results/models/
+results/preds/
+*.pt
+*.pth
+
+# ไฟล์ที่มีลิขสิทธิ์
+*.pdf
+share_for_friend.zip
