@@ -15,16 +15,19 @@ from scipy.stats import binomtest, wilcoxon
 ROOT = Path(__file__).resolve().parent.parent
 R = ROOT / "results"
 
+ORDER = ["S2S", "BiGRU", "LR", "RF"]
 runs = {}
 for p in sorted(R.glob("tsl1s_si*.json"), key=lambda p: p.stat().st_mtime):
     for r in json.loads(p.read_text()):
+        if r["model"] not in ORDER:          # ablations / hand-local / ST-GCN: other summarize_*.py
+            continue
         fold = int(r["split"].rsplit("fold", 1)[1])
         pred = R / "preds" / f"{r['split']}_{r['model']}_seed{r['seed']}_test.csv"
         key = (r["model"], fold)
         if key not in runs or pred.exists() or not runs[key][1]:
             runs[key] = (r, pred.exists())
 
-models = sorted({m for m, _ in runs}, key=["S2S", "BiGRU", "LR", "RF"].index)
+models = sorted({m for m, _ in runs}, key=ORDER.index)
 folds = sorted({f for _, f in runs})
 print("fold  " + "  ".join(f"{m:>16s}" for m in models) + "   (test top1 / macro-F1, %)")
 for f in folds:
