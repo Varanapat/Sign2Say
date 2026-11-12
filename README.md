@@ -14,6 +14,8 @@ Branch `core-pipeline` เป็นระบบหลักของ Sign2Say: �
 | ISLR: S2S-LTR (โมเดลหลัก) | TSL-ONE-S, 10 fold signer-independent | **84.8 ± 3.0%** top-1, 83.2 ± 3.8 macro-F1 |
 | ISLR: BiGRU (baseline) | เหมือนกัน | 77.6 ± 3.1% (S2S ชนะ 10/10 fold, Wilcoxon p = 0.002) |
 | X16: encoder ร่วม TSL-ONE-S + TSL-51 | TSL-51 expert → user_sign | 80.9 ± 2.9% (เทรนชุดเดียว 76.2 ± 1.9%) |
+| ISLR: S2S-LTR + hand-local (จาก branch `base_line`) | 5 fold (0, 2, 4, 6, 8) | **87.1%** vs 84.2% บน fold เดียวกัน (ดีขึ้น 5/5 fold, McNemar p = 2e-5) |
+| ISLR: ST-GCN + hand-local (สูตรเดียวกัน) | 5 fold (0, 2, 4, 6, 8) | 84.3% vs S2S-HL 87.1% (แพ้ 5/5 fold, p = 2e-4) และเทรนช้ากว่า ~15× |
 | CSLR: CTC (C1) | ประโยค TSL-51, ผู้แสดงคนเดียว | WER 5.1% (ประโยคเดิม), 11.8% (ลำดับคำใหม่) |
 | ความเร็ว | Apple M5 | MediaPipe 42 fps, โมเดล 1.3 ms/คลิป (CPU) |
 
@@ -36,7 +38,7 @@ scripts/
   run_cslr.py               C1 CTC และ C2 sliding window
   run_robustness.py         รบกวน landmark / วิดีโอ, ผลรายผู้แสดง
   run_efficiency.py         params, ขนาด, latency, FPS ของ MediaPipe
-  summarize_*.py            สรุปตารางผลและการทดสอบทางสถิติ
+  summarize_*.py            สรุปตารางผลและการทดสอบทางสถิติ (summarize_rqs.py = hand-local / ST-GCN)
   queue_*.sh                คิวการรันที่ใช้จริง
 splits/                     split ทุกแบบ (JSON)
 dataset/annotations/        label map
