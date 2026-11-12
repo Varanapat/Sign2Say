@@ -1,0 +1,410 @@
+[
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold0",
+  "seed": 0,
+  "model": "LR",
+  "val": {
+   "top1": 0.4710526315789474,
+   "top5": 0.7447368421052631,
+   "macro_f1": 0.43524923144488364,
+   "n": 380
+  },
+  "test": {
+   "top1": 0.6206896551724138,
+   "top5": 0.8916256157635468,
+   "macro_f1": 0.6013253654558003,
+   "n": 406
+  },
+  "config": {
+   "C": 1.0
+  },
+  "seconds": 13.9,
+  "device": "cpu",
+  "n_train": 3362,
+  "n_val": 380,
+  "n_test": 406,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold0",
+  "seed": 0,
+  "model": "RF",
+  "val": {
+   "top1": 0.4131578947368421,
+   "top5": 0.7131578947368421,
+   "macro_f1": 0.34671096699549386,
+   "n": 380
+  },
+  "test": {
+   "top1": 0.5517241379310345,
+   "top5": 0.7783251231527094,
+   "macro_f1": 0.5237283549783549,
+   "n": 406
+  },
+  "config": {
+   "n_estimators": 500
+  },
+  "seconds": 17.7,
+  "device": "cpu",
+  "n_train": 3362,
+  "n_val": 380,
+  "n_test": 406,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold0",
+  "seed": 0,
+  "model": "BiGRU",
+  "val": {
+   "top1": 0.7684210526315789,
+   "top5": 0.9210526315789473,
+   "macro_f1": 0.7460144927536231,
+   "n": 380
+  },
+  "test": {
+   "top1": 0.8596059113300493,
+   "top5": 0.9753694581280788,
+   "macro_f1": 0.8555512422360249,
+   "n": 406
+  },
+  "config": {
+   "best_epoch": 70,
+   "epochs_run": 91,
+   "params": 2164152
+  },
+  "seconds": 625.0,
+  "device": "mps",
+  "n_train": 3362,
+  "n_val": 380,
+  "n_test": 406,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold1",
+  "seed": 0,
+  "model": "LR",
+  "val": {
+   "top1": 0.4891304347826087,
+   "top5": 0.7717391304347826,
+   "macro_f1": 0.4634359903381642,
+   "n": 368
+  },
+  "test": {
+   "top1": 0.4631578947368421,
+   "top5": 0.7105263157894737,
+   "macro_f1": 0.42738986032346143,
+   "n": 380
+  },
+  "config": {
+   "C": 1.0
+  },
+  "seconds": 15.3,
+  "device": "cpu",
+  "n_train": 3400,
+  "n_val": 368,
+  "n_test": 380,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold1",
+  "seed": 0,
+  "model": "RF",
+  "val": {
+   "top1": 0.4945652173913043,
+   "top5": 0.7255434782608695,
+   "macro_f1": 0.4605063837129055,
+   "n": 368
+  },
+  "test": {
+   "top1": 0.4236842105263158,
+   "top5": 0.7026315789473684,
+   "macro_f1": 0.3566385908777213,
+   "n": 380
+  },
+  "config": {
+   "n_estimators": 500
+  },
+  "seconds": 18.1,
+  "device": "cpu",
+  "n_train": 3400,
+  "n_val": 368,
+  "n_test": 380,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold1",
+  "seed": 0,
+  "model": "BiGRU",
+  "val": {
+   "top1": 0.7690217391304348,
+   "top5": 0.9239130434782609,
+   "macro_f1": 0.7465493443754313,
+   "n": 368
+  },
+  "test": {
+   "top1": 0.7447368421052631,
+   "top5": 0.9078947368421053,
+   "macro_f1": 0.7162267080745341,
+   "n": 380
+  },
+  "config": {
+   "best_epoch": 86,
+   "epochs_run": 100,
+   "params": 2164152
+  },
+  "seconds": 670.9,
+  "device": "mps",
+  "n_train": 3400,
+  "n_val": 368,
+  "n_test": 380,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold2",
+  "seed": 0,
+  "model": "LR",
+  "val": {
+   "top1": 0.6076555023923444,
+   "top5": 0.8325358851674641,
+   "macro_f1": 0.6016928510534648,
+   "n": 418
+  },
+  "test": {
+   "top1": 0.5081521739130435,
+   "top5": 0.7961956521739131,
+   "macro_f1": 0.4842618733923082,
+   "n": 368
+  },
+  "config": {
+   "C": 1.0
+  },
+  "seconds": 28.3,
+  "device": "cpu",
+  "n_train": 3362,
+  "n_val": 418,
+  "n_test": 368,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold2",
+  "seed": 0,
+  "model": "RF",
+  "val": {
+   "top1": 0.48564593301435405,
+   "top5": 0.8086124401913876,
+   "macro_f1": 0.4553186742924594,
+   "n": 418
+  },
+  "test": {
+   "top1": 0.47554347826086957,
+   "top5": 0.75,
+   "macro_f1": 0.4430965320910973,
+   "n": 368
+  },
+  "config": {
+   "n_estimators": 500
+  },
+  "seconds": 17.0,
+  "device": "cpu",
+  "n_train": 3362,
+  "n_val": 418,
+  "n_test": 368,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold2",
+  "seed": 0,
+  "model": "BiGRU",
+  "val": {
+   "top1": 0.8397129186602871,
+   "top5": 0.9330143540669856,
+   "macro_f1": 0.8416537267080746,
+   "n": 418
+  },
+  "test": {
+   "top1": 0.7635869565217391,
+   "top5": 0.9347826086956522,
+   "macro_f1": 0.7434782608695653,
+   "n": 368
+  },
+  "config": {
+   "best_epoch": 86,
+   "epochs_run": 100,
+   "params": 2164152
+  },
+  "seconds": 851.0,
+  "device": "mps",
+  "n_train": 3362,
+  "n_val": 418,
+  "n_test": 368,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold4",
+  "seed": 0,
+  "model": "LR",
+  "val": {
+   "top1": 0.5721153846153846,
+   "top5": 0.8197115384615384,
+   "macro_f1": 0.541710191981931,
+   "n": 416
+  },
+  "test": {
+   "top1": 0.46634615384615385,
+   "top5": 0.7379807692307693,
+   "macro_f1": 0.4670706502371262,
+   "n": 416
+  },
+  "config": {
+   "C": 1.0
+  },
+  "seconds": 18.4,
+  "device": "cpu",
+  "n_train": 3316,
+  "n_val": 416,
+  "n_test": 416,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold4",
+  "seed": 0,
+  "model": "RF",
+  "val": {
+   "top1": 0.45913461538461536,
+   "top5": 0.6826923076923077,
+   "macro_f1": 0.4193077131272278,
+   "n": 416
+  },
+  "test": {
+   "top1": 0.4014423076923077,
+   "top5": 0.6923076923076923,
+   "macro_f1": 0.39001737996303215,
+   "n": 416
+  },
+  "config": {
+   "n_estimators": 500
+  },
+  "seconds": 14.4,
+  "device": "cpu",
+  "n_train": 3316,
+  "n_val": 416,
+  "n_test": 416,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold4",
+  "seed": 0,
+  "model": "BiGRU",
+  "val": {
+   "top1": 0.7788461538461539,
+   "top5": 0.9302884615384616,
+   "macro_f1": 0.7625094108789761,
+   "n": 416
+  },
+  "test": {
+   "top1": 0.7307692307692307,
+   "top5": 0.9038461538461539,
+   "macro_f1": 0.7208203933747412,
+   "n": 416
+  },
+  "config": {
+   "best_epoch": 73,
+   "epochs_run": 94,
+   "params": 2164152
+  },
+  "seconds": 723.8,
+  "device": "mps",
+  "n_train": 3316,
+  "n_val": 416,
+  "n_test": 416,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold4",
+  "seed": 0,
+  "model": "S2S",
+  "val": {
+   "top1": 0.875,
+   "top5": 0.9615384615384616,
+   "macro_f1": 0.8626682194616977,
+   "n": 416
+  },
+  "test": {
+   "top1": 0.8052884615384616,
+   "top5": 0.9206730769230769,
+   "macro_f1": 0.7850414078674948,
+   "n": 416
+  },
+  "config": {
+   "best_epoch": 119,
+   "epochs_run": 150,
+   "epochs_max": 150,
+   "params": 3276152
+  },
+  "seconds": 864.4,
+  "device": "mps",
+  "label_map": "label_map_tsl1s.json",
+  "n_train": 3316,
+  "n_val": 416,
+  "n_test": 416,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold4",
+  "seed": 0,
+  "model": "BiGRU",
+  "val": {
+   "top1": 0.7932692307692307,
+   "top5": 0.9182692307692307,
+   "macro_f1": 0.7776275958341176,
+   "n": 416
+  },
+  "test": {
+   "top1": 0.7331730769230769,
+   "top5": 0.9110576923076923,
+   "macro_f1": 0.722032436162871,
+   "n": 416
+  },
+  "config": {
+   "best_epoch": 77,
+   "epochs_run": 98,
+   "epochs_max": 100,
+   "params": 2164152
+  },
+  "seconds": 678.7,
+  "device": "mps",
+  "label_map": "label_map_tsl1s.json",
+  "n_train": 3316,
+  "n_val": 416,
+  "n_test": 416,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ }
+]

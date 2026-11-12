@@ -1,0 +1,6 @@
+== tsl1s_si_fold0 seed 0: train 3362 val 380 test 406 classes 184 (test classes unseen in train: 0)
+  BiGRU  val top1 0.774 f1 0.753 | TEST top1 0.833 top5 0.970 macroF1 0.830 (457s) {'best_epoch': 45, 'epochs_run': 66, 'epochs_max': 100, 'params': 2164152}
+== tsl1s_si_fold1 seed 0: train 3400 val 368 test 380 classes 184 (test classes unseen in train: 0)
+  BiGRU  val top1 0.772 f1 0.754 | TEST top1 0.763 top5 0.918 macroF1 0.742 (693s) {'best_epoch': 87, 'epochs_run': 100, 'epochs_max': 100, 'params': 2164152}
+== tsl1s_si_fold2 seed 0: train 3362 val 418 test 368 classes 184 (test classes unseen in train: 0)
+  BiGRU  val top1 0.840 f1 0.845 | TEST top1 0.780 top5 0.918 macroF1 0.762 (613s) {'best_epoch': 69, 'epochs_run': 90, 'epochs_max': 100, 'params': 2164152}

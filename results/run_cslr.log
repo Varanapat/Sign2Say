@@ -1,0 +1,29 @@
+== C1 rep: train 84 val 84 test 84 init scratch synth 300/epoch
+  rep      C1-scratch             seed 0 | val WER 0.042 | TEST WER 0.048 word 0.048 SER 0.155 no_space 0.046 with_space 0.074 (790s) {'best_epoch': 93, 'epochs': 100, 'params': 3876064}
+  rep      C1-scratch             seed 1 | val WER 0.059 | TEST WER 0.055 word 0.055 SER 0.167 no_space 0.053 with_space 0.074 (805s) {'best_epoch': 85, 'epochs': 100, 'params': 3876064}
+  rep      C1-scratch             seed 2 | val WER 0.028 | TEST WER 0.048 word 0.048 SER 0.119 no_space 0.050 with_space 0.037 (902s) {'best_epoch': 95, 'epochs': 100, 'params': 3876064}
+== C1 template: train 186 val 21 test 45 init scratch synth 300/epoch
+  template C1-scratch             seed 0 | val WER 0.083 | TEST WER 0.160 word 0.160 SER 0.378 no_space 0.160 with_space nan (789s) {'best_epoch': 25, 'epochs': 100, 'params': 3876064}
+  template C1-scratch             seed 1 | val WER 0.083 | TEST WER 0.153 word 0.153 SER 0.400 no_space 0.153 with_space nan (684s) {'best_epoch': 31, 'epochs': 100, 'params': 3876064}
+  template C1-scratch             seed 2 | val WER 0.056 | TEST WER 0.093 word 0.093 SER 0.267 no_space 0.093 with_space nan (393s) {'best_epoch': 53, 'epochs': 100, 'params': 3876064}
+== C1 rep: train 84 val 84 test 84 init x16 synth 300/epoch
+  rep      C1-x16                 seed 0 | val WER 0.021 | TEST WER 0.045 word 0.045 SER 0.131 no_space 0.046 with_space 0.037 (303s) {'best_epoch': 81, 'epochs': 100, 'params': 3876064}
+  rep      C1-x16                 seed 1 | val WER 0.038 | TEST WER 0.059 word 0.059 SER 0.155 no_space 0.065 with_space 0.000 (254s) {'best_epoch': 75, 'epochs': 100, 'params': 3876064}
+  rep      C1-x16                 seed 2 | val WER 0.035 | TEST WER 0.048 word 0.048 SER 0.167 no_space 0.053 with_space 0.000 (213s) {'best_epoch': 77, 'epochs': 100, 'params': 3876064}
+== C1 rep: train 84 val 84 test 84 init x16 synth 0/epoch
+  rep      C1-x16-nosynth         seed 0 | val WER 0.017 | TEST WER 0.031 word 0.031 SER 0.107 no_space 0.027 with_space 0.074 (60s) {'best_epoch': 89, 'epochs': 100, 'params': 3876064}
+  rep      C1-x16-nosynth         seed 1 | val WER 0.007 | TEST WER 0.021 word 0.021 SER 0.071 no_space 0.023 with_space 0.000 (44s) {'best_epoch': 83, 'epochs': 100, 'params': 3876064}
+  rep      C1-x16-nosynth         seed 2 | val WER 0.021 | TEST WER 0.052 word 0.052 SER 0.155 no_space 0.046 with_space 0.111 (42s) {'best_epoch': 67, 'epochs': 100, 'params': 3876064}
+== C1 template: train 186 val 21 test 45 init x16 synth 300/epoch
+  template C1-x16                 seed 0 | val WER 0.014 | TEST WER 0.053 word 0.053 SER 0.178 no_space 0.053 with_space nan (243s) {'best_epoch': 59, 'epochs': 100, 'params': 3876064}
+  template C1-x16                 seed 1 | val WER 0.014 | TEST WER 0.133 word 0.133 SER 0.333 no_space 0.133 with_space nan (237s) {'best_epoch': 75, 'epochs': 100, 'params': 3876064}
+  template C1-x16                 seed 2 | val WER 0.028 | TEST WER 0.167 word 0.167 SER 0.356 no_space 0.167 with_space nan (247s) {'best_epoch': 13, 'epochs': 100, 'params': 3876064}
+== C1 template: train 186 val 21 test 45 init x16 synth 0/epoch
+  template C1-x16-nosynth         seed 0 | val WER 0.042 | TEST WER 0.373 word 0.373 SER 0.622 no_space 0.373 with_space nan (114s) {'best_epoch': 29, 'epochs': 100, 'params': 3876064}
+  template C1-x16-nosynth         seed 1 | val WER 0.014 | TEST WER 0.267 word 0.267 SER 0.644 no_space 0.267 with_space nan (90s) {'best_epoch': 25, 'epochs': 100, 'params': 3876064}
+  template C1-x16-nosynth         seed 2 | val WER 0.014 | TEST WER 0.453 word 0.453 SER 0.756 no_space 0.453 with_space nan (91s) {'best_epoch': 37, 'epochs': 100, 'params': 3876064}
+  rep      C2-x16                 seed 0 | val WER 0.388 | TEST WER 0.429 word 0.429 SER 0.869 no_space 0.447 with_space 0.259 (44s) {'window': 60, 'stride': 3, 'tau': 0.2, 'min_run': 5}
+  template C2-x16                 seed 0 | val WER 0.458 | TEST WER 0.393 word 0.393 SER 0.822 no_space 0.393 with_space nan (44s) {'window': 75, 'stride': 3, 'tau': 0.35, 'min_run': 2}
+  rep      C2-x16ft               seed 0 | val WER 0.253 | TEST WER 0.308 word 0.308 SER 0.690 no_space 0.309 with_space 0.296 (109s) {'window': 60, 'stride': 3, 'tau': 0.5, 'min_run': 3}
+  template C2-x16ft               seed 0 | val WER 0.319 | TEST WER 0.273 word 0.273 SER 0.800 no_space 0.273 with_space nan (109s) {'window': 45, 'stride': 3, 'tau': 0.2, 'min_run': 8}
+cslr done

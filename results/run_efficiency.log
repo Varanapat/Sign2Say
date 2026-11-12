@@ -1,0 +1,31 @@
+R S2S-LTR              params 3.28M size 12.5/6.3 MB CPU 1.31 (p95 1.33) ms  MPS 1.38 (p95 2.27) ms
+X1 BiGRU               params 2.16M size 8.3/4.1 MB CPU 2.33 (p95 2.36) ms  MPS 7.55 (p95 7.76) ms
+X16 joint (2 heads)    params 3.29M size 12.6/6.3 MB CPU 1.32 (p95 1.35) ms  MPS 1.34 (p95 1.45) ms
+C1 CTC (CSLR)          params 3.88M size 14.8/7.4 MB CPU 1.94 (p95 2.02) ms  MPS 1.82 (p95 2.08) ms
+R S2S-LTR training memory (batch 32, MPS driver): 249 MB
+X1 BiGRU training memory (batch 32, MPS driver): 68 MB
+preprocess (69 frames): 0.79 ms (p95 0.83)
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794401008.446734 28133285 gl_context.cc:369] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1794401008.492449 28133580 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1794401008.499496 28133579 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1794401008.501179 28133576 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1794401008.501377 28133578 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1794401008.501377 28133584 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1794401008.503360 28133576 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1794401008.506523 28133584 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1794401008.507259 28133581 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1794401008.511615 28133575 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+MediaPipe Holistic (native, 448x522): 23.7 ms/frame (p95 25.9) = 42.3 fps
+I0000 00:00:1794401014.840573 28133285 gl_context.cc:369] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5
+W0000 00:00:1794401014.886322 28133698 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1794401014.893722 28133698 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1794401014.894891 28133702 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1794401014.894917 28133700 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1794401014.894925 28133699 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1794401014.897302 28133698 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1794401014.899024 28133700 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1794401014.899181 28133705 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+MediaPipe Holistic (640x480, 640x480): 23.1 ms/frame (p95 23.7) = 43.3 fps
+training time per fold (median, MPS, sometimes 2 jobs in parallel): {'S2S': {'median_s': 781.5, 'median_epochs': 139.0, 'runs': 9}, 'BiGRU': {'median_s': 1446.6, 'median_epochs': 87.5, 'runs': 6}}

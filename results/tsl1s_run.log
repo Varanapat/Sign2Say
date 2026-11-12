@@ -1,0 +1,16 @@
+== tsl1s_orig seed 0: train 3323 val 468 test 357 classes 184 (test classes unseen in train: 0)
+  LR     val top1 0.434 f1 0.430 | TEST top1 0.527 top5 0.815 macroF1 0.508 (14s) {'C': 1.0}
+  RF     val top1 0.316 f1 0.320 | TEST top1 0.373 top5 0.667 macroF1 0.346 (16s) {'n_estimators': 500}
+  BiGRU  val top1 0.763 f1 0.755 | TEST top1 0.812 top5 0.947 macroF1 0.799 (677s) {'best_epoch': 86, 'epochs_run': 100, 'params': 2164152}
+== tsl1s_si_fold0 seed 0: train 3362 val 380 test 406 classes 184 (test classes unseen in train: 0)
+  LR     val top1 0.471 f1 0.435 | TEST top1 0.621 top5 0.892 macroF1 0.601 (14s) {'C': 1.0}
+  RF     val top1 0.413 f1 0.347 | TEST top1 0.552 top5 0.778 macroF1 0.524 (18s) {'n_estimators': 500}
+  BiGRU  val top1 0.768 f1 0.746 | TEST top1 0.860 top5 0.975 macroF1 0.856 (625s) {'best_epoch': 70, 'epochs_run': 91, 'params': 2164152}
+== tsl1s_si_fold1 seed 0: train 3400 val 368 test 380 classes 184 (test classes unseen in train: 0)
+  LR     val top1 0.489 f1 0.463 | TEST top1 0.463 top5 0.711 macroF1 0.427 (15s) {'C': 1.0}
+  RF     val top1 0.495 f1 0.461 | TEST top1 0.424 top5 0.703 macroF1 0.357 (18s) {'n_estimators': 500}
+  BiGRU  val top1 0.769 f1 0.747 | TEST top1 0.745 top5 0.908 macroF1 0.716 (671s) {'best_epoch': 86, 'epochs_run': 100, 'params': 2164152}
+== tsl1s_si_fold2 seed 0: train 3362 val 418 test 368 classes 184 (test classes unseen in train: 0)
+  LR     val top1 0.608 f1 0.602 | TEST top1 0.508 top5 0.796 macroF1 0.484 (28s) {'C': 1.0}
+  RF     val top1 0.486 f1 0.455 | TEST top1 0.476 top5 0.750 macroF1 0.443 (17s) {'n_estimators': 500}
+  BiGRU  val top1 0.840 f1 0.842 | TEST top1 0.764 top5 0.935 macroF1 0.743 (851s) {'best_epoch': 86, 'epochs_run': 100, 'params': 2164152}

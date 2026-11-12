@@ -1,0 +1,12 @@
+== tsl1s_si_fold3 seed 0: train 3314 val 416 test 418 classes 184 (test classes unseen in train: 0)
+  BiGRU  val top1 0.736 f1 0.723 | TEST top1 0.816 top5 0.923 macroF1 0.818 (1468s) {'best_epoch': 54, 'epochs_run': 75, 'epochs_max': 100, 'params': 2164152}
+== tsl1s_si_fold5 seed 0: train 3305 val 427 test 416 classes 184 (test classes unseen in train: 0)
+  BiGRU  val top1 0.724 f1 0.712 | TEST top1 0.757 top5 0.935 macroF1 0.739 (2690s) {'best_epoch': 80, 'epochs_run': 100, 'epochs_max': 100, 'params': 2164152}
+== tsl1s_si_fold6 seed 0: train 3279 val 442 test 427 classes 184 (test classes unseen in train: 0)
+  BiGRU  val top1 0.808 f1 0.800 | TEST top1 0.738 top5 0.911 macroF1 0.717 (1919s) {'best_epoch': 58, 'epochs_run': 79, 'epochs_max': 100, 'params': 2164152}
+== tsl1s_si_fold7 seed 0: train 3267 val 439 test 442 classes 184 (test classes unseen in train: 0)
+  BiGRU  val top1 0.786 f1 0.763 | TEST top1 0.796 top5 0.946 macroF1 0.787 (1425s) {'best_epoch': 62, 'epochs_run': 83, 'epochs_max': 100, 'params': 2164152}
+== tsl1s_si_fold8 seed 0: train 3273 val 436 test 439 classes 184 (test classes unseen in train: 0)
+  BiGRU  val top1 0.796 f1 0.766 | TEST top1 0.761 top5 0.913 macroF1 0.748 (677s) {'best_epoch': 71, 'epochs_run': 92, 'epochs_max': 100, 'params': 2164152}
+== tsl1s_si_fold9 seed 0: train 3306 val 406 test 436 classes 184 (test classes unseen in train: 0)
+  BiGRU  val top1 0.867 f1 0.868 | TEST top1 0.784 top5 0.938 macroF1 0.757 (660s) {'best_epoch': 73, 'epochs_run': 94, 'epochs_max': 100, 'params': 2164152}

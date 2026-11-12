@@ -1,0 +1,8 @@
+== tsl51_ext seed 1: train 980 val 173 test 547 classes 52 (test classes unseen in train: 0)
+  S2S    val top1 0.994 f1 0.994 | TEST top1 0.761 top5 0.923 macroF1 0.735 (123s) {'best_epoch': 52, 'epochs_run': 83, 'epochs_max': 150, 'params': 3242228}
+== tsl51_ext seed 2: train 970 val 183 test 547 classes 52 (test classes unseen in train: 0)
+  S2S    val top1 0.973 f1 0.971 | TEST top1 0.782 top5 0.932 macroF1 0.762 (133s) {'best_epoch': 56, 'epochs_run': 87, 'epochs_max': 150, 'params': 3242228}
+== tsl51_ext seed 3: train 982 val 171 test 547 classes 52 (test classes unseen in train: 0)
+  S2S    val top1 0.982 f1 0.963 | TEST top1 0.779 top5 0.947 macroF1 0.750 (128s) {'best_epoch': 49, 'epochs_run': 80, 'epochs_max': 150, 'params': 3242228}
+== tsl51_ext seed 4: train 977 val 176 test 547 classes 52 (test classes unseen in train: 0)
+  S2S    val top1 0.983 f1 0.980 | TEST top1 0.757 top5 0.941 macroF1 0.737 (160s) {'best_epoch': 74, 'epochs_run': 105, 'epochs_max': 150, 'params': 3242228}

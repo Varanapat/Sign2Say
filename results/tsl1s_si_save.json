@@ -1,0 +1,68 @@
+[
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold4",
+  "seed": 0,
+  "model": "S2S",
+  "variant": "base",
+  "val": {
+   "top1": 0.875,
+   "top5": 0.9615384615384616,
+   "macro_f1": 0.8626682194616977,
+   "n": 416
+  },
+  "test": {
+   "top1": 0.8052884615384616,
+   "top5": 0.9206730769230769,
+   "macro_f1": 0.7850414078674948,
+   "n": 416
+  },
+  "config": {
+   "best_epoch": 119,
+   "epochs_run": 150,
+   "epochs_max": 150,
+   "params": 3276152
+  },
+  "seconds": 1262.3,
+  "device": "mps",
+  "label_map": "label_map_tsl1s.json",
+  "n_train": 3316,
+  "n_val": 416,
+  "n_test": 416,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold4",
+  "seed": 0,
+  "model": "BiGRU",
+  "variant": "base",
+  "val": {
+   "top1": 0.7932692307692307,
+   "top5": 0.9182692307692307,
+   "macro_f1": 0.7776275958341176,
+   "n": 416
+  },
+  "test": {
+   "top1": 0.7331730769230769,
+   "top5": 0.9110576923076923,
+   "macro_f1": 0.722032436162871,
+   "n": 416
+  },
+  "config": {
+   "best_epoch": 77,
+   "epochs_run": 98,
+   "epochs_max": 100,
+   "params": 2164152
+  },
+  "seconds": 2111.7,
+  "device": "mps",
+  "label_map": "label_map_tsl1s.json",
+  "n_train": 3316,
+  "n_val": 416,
+  "n_test": 416,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ }
+]

@@ -1,0 +1,200 @@
+[
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold4",
+  "seed": 0,
+  "model": "STGCN-HL",
+  "variant": "base",
+  "val": {
+   "top1": 0.8653846153846154,
+   "top5": 0.9663461538461539,
+   "macro_f1": 0.8546066252587992,
+   "n": 416
+  },
+  "test": {
+   "top1": 0.8052884615384616,
+   "top5": 0.9326923076923077,
+   "macro_f1": 0.7860248447204969,
+   "n": 416
+  },
+  "config": {
+   "best_epoch": 109,
+   "epochs_run": 140,
+   "epochs_max": 150,
+   "params": 3142992
+  },
+  "seconds": 15580.7,
+  "device": "mps",
+  "label_map": "label_map_tsl1s.json",
+  "n_train": 3316,
+  "n_val": 416,
+  "n_test": 416,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold4",
+  "seed": 0,
+  "model": "STGCN",
+  "variant": "base",
+  "val": {
+   "top1": 0.8173076923076923,
+   "top5": 0.9591346153846154,
+   "macro_f1": 0.8039855072463769,
+   "n": 416
+  },
+  "test": {
+   "top1": 0.7716346153846154,
+   "top5": 0.9158653846153846,
+   "macro_f1": 0.7421195652173914,
+   "n": 416
+  },
+  "config": {
+   "best_epoch": 101,
+   "epochs_run": 132,
+   "epochs_max": 150,
+   "params": 3142392
+  },
+  "seconds": 10795.2,
+  "device": "mps",
+  "label_map": "label_map_tsl1s.json",
+  "n_train": 3316,
+  "n_val": 416,
+  "n_test": 416,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold0",
+  "seed": 0,
+  "model": "STGCN-HL",
+  "variant": "base",
+  "val": {
+   "top1": 0.8342105263157895,
+   "top5": 0.9342105263157895,
+   "macro_f1": 0.8191770186335404,
+   "n": 380
+  },
+  "test": {
+   "top1": 0.9039408866995073,
+   "top5": 0.9778325123152709,
+   "macro_f1": 0.9007246376811595,
+   "n": 406
+  },
+  "config": {
+   "best_epoch": 98,
+   "epochs_run": 129,
+   "epochs_max": 150,
+   "params": 3142992
+  },
+  "seconds": 10661.2,
+  "device": "mps",
+  "label_map": "label_map_tsl1s.json",
+  "n_train": 3362,
+  "n_val": 380,
+  "n_test": 406,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold2",
+  "seed": 0,
+  "model": "STGCN-HL",
+  "variant": "base",
+  "val": {
+   "top1": 0.8779904306220095,
+   "top5": 0.9569377990430622,
+   "macro_f1": 0.8839673913043476,
+   "n": 418
+  },
+  "test": {
+   "top1": 0.8369565217391305,
+   "top5": 0.9592391304347826,
+   "macro_f1": 0.8236283643892339,
+   "n": 368
+  },
+  "config": {
+   "best_epoch": 133,
+   "epochs_run": 150,
+   "epochs_max": 150,
+   "params": 3142992
+  },
+  "seconds": 13104.5,
+  "device": "mps",
+  "label_map": "label_map_tsl1s.json",
+  "n_train": 3362,
+  "n_val": 418,
+  "n_test": 368,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold6",
+  "seed": 0,
+  "model": "STGCN-HL",
+  "variant": "base",
+  "val": {
+   "top1": 0.8755656108597285,
+   "top5": 0.9479638009049773,
+   "macro_f1": 0.8644927536231883,
+   "n": 442
+  },
+  "test": {
+   "top1": 0.8313817330210773,
+   "top5": 0.9484777517564403,
+   "macro_f1": 0.8097049689440994,
+   "n": 427
+  },
+  "config": {
+   "best_epoch": 112,
+   "epochs_run": 143,
+   "epochs_max": 150,
+   "params": 3142992
+  },
+  "seconds": 11706.0,
+  "device": "mps",
+  "label_map": "label_map_tsl1s.json",
+  "n_train": 3279,
+  "n_val": 442,
+  "n_test": 427,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold8",
+  "seed": 0,
+  "model": "STGCN-HL",
+  "variant": "base",
+  "val": {
+   "top1": 0.8577981651376146,
+   "top5": 0.9334862385321101,
+   "macro_f1": 0.8303959627329193,
+   "n": 436
+  },
+  "test": {
+   "top1": 0.835990888382688,
+   "top5": 0.929384965831435,
+   "macro_f1": 0.7991718426501034,
+   "n": 439
+  },
+  "config": {
+   "best_epoch": 93,
+   "epochs_run": 124,
+   "epochs_max": 150,
+   "params": 3142992
+  },
+  "seconds": 11292.7,
+  "device": "mps",
+  "label_map": "label_map_tsl1s.json",
+  "n_train": 3273,
+  "n_val": 436,
+  "n_test": 439,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ }
+]

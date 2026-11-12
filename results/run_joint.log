@@ -1,0 +1,20 @@
+== joint tsl1s_si_fold0 + tsl51_ext seed 0: train 3362 + 970, val 380 + 183, test 406 + 547, heads 184 + 52
+  tsl1s_si_fold0   S2S-joint      val top1 0.868 f1 0.860 | TEST top1 0.901 top5 0.980 macroF1 0.901
+  tsl51_ext        S2S-joint-f0   val top1 1.000 f1 1.000 | TEST top1 0.832 top5 0.954 macroF1 0.819
+  (909s) {'best_epoch': 133, 'epochs_run': 150, 'epochs_max': 150, 'params': 3289516}
+== joint tsl1s_si_fold2 + tsl51_ext seed 0: train 3362 + 970, val 418 + 183, test 368 + 547, heads 184 + 52
+  tsl1s_si_fold2   S2S-joint      val top1 0.871 f1 0.872 | TEST top1 0.864 top5 0.954 macroF1 0.853
+  tsl51_ext        S2S-joint-f2   val top1 0.995 f1 0.994 | TEST top1 0.824 top5 0.943 macroF1 0.810
+  (1141s) {'best_epoch': 133, 'epochs_run': 150, 'epochs_max': 150, 'params': 3289516}
+== joint tsl1s_si_fold4 + tsl51_ext seed 0: train 3316 + 970, val 416 + 183, test 416 + 547, heads 184 + 52
+  tsl1s_si_fold4   S2S-joint      val top1 0.875 f1 0.864 | TEST top1 0.820 top5 0.933 macroF1 0.808
+  tsl51_ext        S2S-joint-f4   val top1 1.000 f1 1.000 | TEST top1 0.781 top5 0.945 macroF1 0.763
+  (1002s) {'best_epoch': 99, 'epochs_run': 130, 'epochs_max': 150, 'params': 3289516}
+== joint tsl1s_si_fold6 + tsl51_ext seed 0: train 3279 + 970, val 442 + 183, test 427 + 547, heads 184 + 52
+  tsl1s_si_fold6   S2S-joint      val top1 0.867 f1 0.853 | TEST top1 0.843 top5 0.956 macroF1 0.824
+  tsl51_ext        S2S-joint-f6   val top1 1.000 f1 1.000 | TEST top1 0.841 top5 0.958 macroF1 0.824
+  (1211s) {'best_epoch': 134, 'epochs_run': 150, 'epochs_max': 150, 'params': 3289516}
+== joint tsl1s_si_fold8 + tsl51_ext seed 0: train 3273 + 970, val 436 + 183, test 439 + 547, heads 184 + 52
+  tsl1s_si_fold8   S2S-joint      val top1 0.830 f1 0.807 | TEST top1 0.756 top5 0.920 macroF1 0.720
+  tsl51_ext        S2S-joint-f8   val top1 1.000 f1 1.000 | TEST top1 0.768 top5 0.941 macroF1 0.740
+  (488s) {'best_epoch': 40, 'epochs_run': 71, 'epochs_max': 150, 'params': 3289516}

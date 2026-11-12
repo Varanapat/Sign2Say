@@ -1,0 +1,101 @@
+[
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold0",
+  "seed": 0,
+  "model": "BiGRU",
+  "variant": "base",
+  "val": {
+   "top1": 0.7736842105263158,
+   "top5": 0.9394736842105263,
+   "macro_f1": 0.7534937888198757,
+   "n": 380
+  },
+  "test": {
+   "top1": 0.8325123152709359,
+   "top5": 0.9704433497536946,
+   "macro_f1": 0.829684265010352,
+   "n": 406
+  },
+  "config": {
+   "best_epoch": 45,
+   "epochs_run": 66,
+   "epochs_max": 100,
+   "params": 2164152
+  },
+  "seconds": 457.0,
+  "device": "mps",
+  "label_map": "label_map_tsl1s.json",
+  "n_train": 3362,
+  "n_val": 380,
+  "n_test": 406,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold1",
+  "seed": 0,
+  "model": "BiGRU",
+  "variant": "base",
+  "val": {
+   "top1": 0.7717391304347826,
+   "top5": 0.9347826086956522,
+   "macro_f1": 0.7536490683229814,
+   "n": 368
+  },
+  "test": {
+   "top1": 0.7631578947368421,
+   "top5": 0.9184210526315789,
+   "macro_f1": 0.7418219461697724,
+   "n": 380
+  },
+  "config": {
+   "best_epoch": 87,
+   "epochs_run": 100,
+   "epochs_max": 100,
+   "params": 2164152
+  },
+  "seconds": 693.4,
+  "device": "mps",
+  "label_map": "label_map_tsl1s.json",
+  "n_train": 3400,
+  "n_val": 368,
+  "n_test": 380,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl1s_si",
+  "split": "tsl1s_si_fold2",
+  "seed": 0,
+  "model": "BiGRU",
+  "variant": "base",
+  "val": {
+   "top1": 0.8397129186602871,
+   "top5": 0.9473684210526315,
+   "macro_f1": 0.8451992753623188,
+   "n": 418
+  },
+  "test": {
+   "top1": 0.779891304347826,
+   "top5": 0.9184782608695652,
+   "macro_f1": 0.7615942028985507,
+   "n": 368
+  },
+  "config": {
+   "best_epoch": 69,
+   "epochs_run": 90,
+   "epochs_max": 100,
+   "params": 2164152
+  },
+  "seconds": 612.7,
+  "device": "mps",
+  "label_map": "label_map_tsl1s.json",
+  "n_train": 3362,
+  "n_val": 418,
+  "n_test": 368,
+  "n_classes": 184,
+  "test_classes_unseen_in_train": []
+ }
+]

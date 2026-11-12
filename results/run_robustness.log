@@ -1,0 +1,42 @@
+fold 4 test: 416 clips
+  clean                none      R S2S-LTR  80.5  X1 BiGRU  73.3
+  rotation             -30°      R S2S-LTR  71.6  X1 BiGRU  58.4
+  rotation             -15°      R S2S-LTR  78.8  X1 BiGRU  71.2
+  rotation             +15°      R S2S-LTR  81.2  X1 BiGRU  72.1
+  rotation             +30°      R S2S-LTR  79.8  X1 BiGRU  61.1
+  frame rate           1/2       R S2S-LTR  80.5  X1 BiGRU  73.1
+  frame rate           1/3       R S2S-LTR  80.5  X1 BiGRU  71.4
+  frame rate           1/4       R S2S-LTR  81.5  X1 BiGRU  72.4
+  speed                0.5x      R S2S-LTR  80.5  X1 BiGRU  72.4
+  speed                0.75x     R S2S-LTR  81.0  X1 BiGRU  72.4
+  speed                1.25x     R S2S-LTR  80.0  X1 BiGRU  73.6
+  speed                1.5x      R S2S-LTR  81.0  X1 BiGRU  74.3
+  speed                2.0x      R S2S-LTR  81.2  X1 BiGRU  72.4
+  time warp            0.2       R S2S-LTR  80.0  X1 BiGRU  72.6
+  time warp            0.4       R S2S-LTR  79.3  X1 BiGRU  71.4
+  time warp            0.6       R S2S-LTR  78.8  X1 BiGRU  71.2
+  jitter               σ=0.01    R S2S-LTR  80.0  X1 BiGRU  73.3
+  jitter               σ=0.02    R S2S-LTR  78.8  X1 BiGRU  73.6
+  jitter               σ=0.05    R S2S-LTR  75.2  X1 BiGRU  70.7
+  jitter               σ=0.1     R S2S-LTR  63.2  X1 BiGRU  58.2
+  hand drop            p=0.1     R S2S-LTR  80.5  X1 BiGRU  72.4
+  hand drop            p=0.2     R S2S-LTR  80.3  X1 BiGRU  72.4
+  hand drop            p=0.3     R S2S-LTR  80.0  X1 BiGRU  71.4
+  hand drop            p=0.5     R S2S-LTR  77.6  X1 BiGRU  64.7
+  occlude right hand   10%       R S2S-LTR  80.3  X1 BiGRU  70.2
+  occlude right hand   20%       R S2S-LTR  76.9  X1 BiGRU  61.5
+  occlude right hand   30%       R S2S-LTR  74.0  X1 BiGRU  55.3
+  occlude right hand   40%       R S2S-LTR  67.3  X1 BiGRU  47.8
+  occlude both hands   10%       R S2S-LTR  79.8  X1 BiGRU  69.7
+  occlude both hands   20%       R S2S-LTR  76.4  X1 BiGRU  60.8
+  occlude both hands   30%       R S2S-LTR  71.6  X1 BiGRU  53.6
+  occlude both hands   40%       R S2S-LTR  65.1  X1 BiGRU  44.2
+  flip (left-handed)   mirrored  R S2S-LTR  17.1  X1 BiGRU  13.9
+  brightness           0.4x      R S2S-LTR  78.1  X1 BiGRU  66.6  hands L 0.72 R 0.78
+  brightness           0.6x      R S2S-LTR  79.1  X1 BiGRU  70.9  hands L 0.74 R 0.83
+  brightness           1.6x      R S2S-LTR  81.5  X1 BiGRU  73.6  hands L 0.75 R 0.85
+  resolution           0.5x      R S2S-LTR  80.0  X1 BiGRU  73.8  hands L 0.75 R 0.86
+  resolution           0.33x     R S2S-LTR  79.8  X1 BiGRU  73.1  hands L 0.75 R 0.85
+  blur                 k=9       R S2S-LTR  78.1  X1 BiGRU  72.6  hands L 0.74 R 0.84
+  per-signer S2S: min 56.9 (28) median 85.1 max 95.7 (12) std 8.1 over 29 signers
+  per-signer BiGRU: min 58.8 (28) median 77.2 max 87.4 (15) std 7.9 over 29 signers

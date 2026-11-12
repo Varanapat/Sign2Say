@@ -1,0 +1,134 @@
+[
+ {
+  "protocol": "tsl51_ext",
+  "split": "tsl51_ext",
+  "seed": 1,
+  "model": "S2S",
+  "variant": "base",
+  "val": {
+   "top1": 0.9942196531791907,
+   "top5": 1.0,
+   "macro_f1": 0.994017094017094,
+   "n": 173
+  },
+  "test": {
+   "top1": 0.7605118829981719,
+   "top5": 0.923217550274223,
+   "macro_f1": 0.7353076807813579,
+   "n": 547
+  },
+  "config": {
+   "best_epoch": 52,
+   "epochs_run": 83,
+   "epochs_max": 150,
+   "params": 3242228
+  },
+  "seconds": 122.6,
+  "device": "mps",
+  "label_map": "sorted sign_id",
+  "n_train": 980,
+  "n_val": 173,
+  "n_test": 547,
+  "n_classes": 52,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl51_ext",
+  "split": "tsl51_ext",
+  "seed": 2,
+  "model": "S2S",
+  "variant": "base",
+  "val": {
+   "top1": 0.9726775956284153,
+   "top5": 0.994535519125683,
+   "macro_f1": 0.971084471084471,
+   "n": 183
+  },
+  "test": {
+   "top1": 0.7824497257769653,
+   "top5": 0.9323583180987203,
+   "macro_f1": 0.7619064476093406,
+   "n": 547
+  },
+  "config": {
+   "best_epoch": 56,
+   "epochs_run": 87,
+   "epochs_max": 150,
+   "params": 3242228
+  },
+  "seconds": 132.5,
+  "device": "mps",
+  "label_map": "sorted sign_id",
+  "n_train": 970,
+  "n_val": 183,
+  "n_test": 547,
+  "n_classes": 52,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl51_ext",
+  "split": "tsl51_ext",
+  "seed": 3,
+  "model": "S2S",
+  "variant": "base",
+  "val": {
+   "top1": 0.9824561403508771,
+   "top5": 1.0,
+   "macro_f1": 0.9633699633699634,
+   "n": 171
+  },
+  "test": {
+   "top1": 0.7787934186471663,
+   "top5": 0.946983546617916,
+   "macro_f1": 0.7504636447199247,
+   "n": 547
+  },
+  "config": {
+   "best_epoch": 49,
+   "epochs_run": 80,
+   "epochs_max": 150,
+   "params": 3242228
+  },
+  "seconds": 127.6,
+  "device": "mps",
+  "label_map": "sorted sign_id",
+  "n_train": 982,
+  "n_val": 171,
+  "n_test": 547,
+  "n_classes": 52,
+  "test_classes_unseen_in_train": []
+ },
+ {
+  "protocol": "tsl51_ext",
+  "split": "tsl51_ext",
+  "seed": 4,
+  "model": "S2S",
+  "variant": "base",
+  "val": {
+   "top1": 0.9829545454545454,
+   "top5": 1.0,
+   "macro_f1": 0.9801446416831033,
+   "n": 176
+  },
+  "test": {
+   "top1": 0.7568555758683729,
+   "top5": 0.9414990859232175,
+   "macro_f1": 0.7371803825980693,
+   "n": 547
+  },
+  "config": {
+   "best_epoch": 74,
+   "epochs_run": 105,
+   "epochs_max": 150,
+   "params": 3242228
+  },
+  "seconds": 159.9,
+  "device": "mps",
+  "label_map": "sorted sign_id",
+  "n_train": 977,
+  "n_val": 176,
+  "n_test": 547,
+  "n_classes": 52,
+  "test_classes_unseen_in_train": []
+ }
+]

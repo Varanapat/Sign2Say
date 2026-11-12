@@ -1,0 +1,64 @@
+[
+ {
+  "protocol": "joint",
+  "split": "tsl1s_si_fold0",
+  "seed": 0,
+  "model": "S2S-joint",
+  "variant": "joint",
+  "val": {
+   "top1": 0.868421052631579,
+   "top5": 0.9526315789473684,
+   "macro_f1": 0.8601319875776398,
+   "n": 380
+  },
+  "test": {
+   "top1": 0.9014778325123153,
+   "top5": 0.9802955665024631,
+   "macro_f1": 0.9005822981366459,
+   "n": 406
+  },
+  "config": {
+   "best_epoch": 133,
+   "epochs_run": 150,
+   "epochs_max": 150,
+   "params": 3289516
+  },
+  "seconds": 1614.9,
+  "device": "mps",
+  "n_train": 4332,
+  "n_val": 380,
+  "n_test": 406,
+  "n_classes": 184
+ },
+ {
+  "protocol": "joint",
+  "split": "tsl51_ext",
+  "seed": 0,
+  "model": "S2S-joint-f0",
+  "variant": "joint",
+  "val": {
+   "top1": 1.0,
+   "top5": 1.0,
+   "macro_f1": 1.0,
+   "n": 183
+  },
+  "test": {
+   "top1": 0.8318098720292505,
+   "top5": 0.9542961608775137,
+   "macro_f1": 0.8187088095135338,
+   "n": 547
+  },
+  "config": {
+   "best_epoch": 133,
+   "epochs_run": 150,
+   "epochs_max": 150,
+   "params": 3289516
+  },
+  "seconds": 1614.9,
+  "device": "mps",
+  "n_train": 4332,
+  "n_val": 183,
+  "n_test": 547,
+  "n_classes": 52
+ }
+]

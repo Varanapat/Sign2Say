@@ -1,0 +1,18 @@
+== tsl1s_si_fold0 seed 0: train 3362 val 380 test 406 classes 184 (test classes unseen in train: 0)
+  S2S    val top1 0.845 f1 0.830 | TEST top1 0.919 top5 0.975 macroF1 0.919 (664s) {'best_epoch': 113, 'epochs_run': 144, 'epochs_max': 150, 'params': 3276152}
+== tsl1s_si_fold1 seed 0: train 3400 val 368 test 380 classes 184 (test classes unseen in train: 0)
+  S2S    val top1 0.848 f1 0.836 | TEST top1 0.847 top5 0.953 macroF1 0.835 (783s) {'best_epoch': 109, 'epochs_run': 140, 'epochs_max': 150, 'params': 3276152}
+== tsl1s_si_fold2 seed 0: train 3362 val 418 test 368 classes 184 (test classes unseen in train: 0)
+  S2S    val top1 0.868 f1 0.874 | TEST top1 0.834 top5 0.946 macroF1 0.817 (653s) {'best_epoch': 99, 'epochs_run': 130, 'epochs_max': 150, 'params': 3276152}
+== tsl1s_si_fold3 seed 0: train 3314 val 416 test 418 classes 184 (test classes unseen in train: 0)
+  S2S    val top1 0.817 f1 0.803 | TEST top1 0.861 top5 0.945 macroF1 0.861 (562s) {'best_epoch': 79, 'epochs_run': 110, 'epochs_max': 150, 'params': 3276152}
+== tsl1s_si_fold5 seed 0: train 3305 val 427 test 416 classes 184 (test classes unseen in train: 0)
+  S2S    val top1 0.831 f1 0.819 | TEST top1 0.834 top5 0.952 macroF1 0.812 (1438s) {'best_epoch': 139, 'epochs_run': 150, 'epochs_max': 150, 'params': 3276152}
+== tsl1s_si_fold6 seed 0: train 3279 val 442 test 427 classes 184 (test classes unseen in train: 0)
+  S2S    val top1 0.860 f1 0.847 | TEST top1 0.836 top5 0.944 macroF1 0.825 (806s) {'best_epoch': 108, 'epochs_run': 139, 'epochs_max': 150, 'params': 3276152}
+== tsl1s_si_fold7 seed 0: train 3267 val 439 test 442 classes 184 (test classes unseen in train: 0)
+  S2S    val top1 0.831 f1 0.807 | TEST top1 0.873 top5 0.937 macroF1 0.861 (929s) {'best_epoch': 128, 'epochs_run': 150, 'epochs_max': 150, 'params': 3276152}
+== tsl1s_si_fold8 seed 0: train 3273 val 436 test 439 classes 184 (test classes unseen in train: 0)
+  S2S    val top1 0.856 f1 0.834 | TEST top1 0.815 top5 0.927 macroF1 0.781 (648s) {'best_epoch': 72, 'epochs_run': 103, 'epochs_max': 150, 'params': 3276152}
+== tsl1s_si_fold9 seed 0: train 3306 val 406 test 436 classes 184 (test classes unseen in train: 0)
+  S2S    val top1 0.919 f1 0.918 | TEST top1 0.851 top5 0.940 macroF1 0.827 (782s) {'best_epoch': 102, 'epochs_run': 133, 'epochs_max': 150, 'params': 3276152}

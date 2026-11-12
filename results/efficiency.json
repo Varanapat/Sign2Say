@@ -1,0 +1,123 @@
+{
+ "machine": "arm64 macOS-26.5.2-arm64-arm-64bit",
+ "torch": "2.15.0",
+ "cpu_threads": 4,
+ "models": {
+  "R S2S-LTR": {
+   "params": 3276152,
+   "params_by_part": {
+    "enc": 51904,
+    "norm": 512,
+    "drop": 0,
+    "tf": 3159040,
+    "head": 47800,
+    "other": 16896
+   },
+   "size_fp32_mb": 12.51789379119873,
+   "size_fp16_mb": 6.2691144943237305,
+   "latency_cpu_ms": {
+    "median": 1.3132705353200436,
+    "p95": 1.333228696603328
+   },
+   "latency_mps_ms": {
+    "median": 1.376479398459196,
+    "p95": 2.2706854273565105
+   },
+   "train_mem_batch32_mb": 249.234375
+  },
+  "X1 BiGRU": {
+   "params": 2164152,
+   "params_by_part": {
+    "inp": 97536,
+    "gru": 1972224,
+    "head": 94392,
+    "other": 0
+   },
+   "size_fp32_mb": 8.261872291564941,
+   "size_fp16_mb": 4.134064674377441,
+   "latency_cpu_ms": {
+    "median": 2.3278751177713275,
+    "p95": 2.355107676703483
+   },
+   "latency_mps_ms": {
+    "median": 7.550041424110532,
+    "p95": 7.762815023306756
+   },
+   "train_mem_batch32_mb": 68.078125
+  },
+  "X16 joint (2 heads)": {
+   "params": 3289516,
+   "params_by_part": {
+    "enc": 51904,
+    "norm": 512,
+    "drop": 0,
+    "tf": 3159040,
+    "head": 61164,
+    "other": 16896
+   },
+   "size_fp32_mb": 12.56885814666748,
+   "size_fp16_mb": 6.2946271896362305,
+   "latency_cpu_ms": {
+    "median": 1.3188539305701852,
+    "p95": 1.350799365900457
+   },
+   "latency_mps_ms": {
+    "median": 1.3447294477373362,
+    "p95": 1.4465229352936146
+   }
+  },
+  "C1 CTC (CSLR)": {
+   "params": 3876064,
+   "params_by_part": {
+    "enc": 51904,
+    "norm": 512,
+    "down": 655872,
+    "drop": 0,
+    "tf": 3159040,
+    "out": 8736,
+    "other": 0
+   },
+   "size_fp32_mb": 14.807011604309082,
+   "size_fp16_mb": 7.414006233215332,
+   "latency_cpu_ms": {
+    "median": 1.939458423294127,
+    "p95": 2.0226683816872537
+   },
+   "latency_mps_ms": {
+    "median": 1.8155834404751658,
+    "p95": 2.077794086653739
+   }
+  }
+ },
+ "preprocess_ms": {
+  "median": 0.787624972872436,
+  "p95": 0.8338691317476332,
+  "frames": 69
+ },
+ "mediapipe_native": {
+  "median_ms": 23.651854135096073,
+  "p95_ms": 25.93592279590666,
+  "fps": 42.2799833910754,
+  "frames": 248,
+  "frame_size": "448x522"
+ },
+ "mediapipe_640x480": {
+  "median_ms": 23.107229499146342,
+  "p95_ms": 23.67628124775365,
+  "fps": 43.27649924613175,
+  "frames": 248,
+  "frame_size": "640x480"
+ },
+ "train_time_10fold": {
+  "S2S": {
+   "median_s": 781.5,
+   "median_epochs": 139.0,
+   "runs": 9
+  },
+  "BiGRU": {
+   "median_s": 1446.6,
+   "median_epochs": 87.5,
+   "runs": 6
+  }
+ }
+}
