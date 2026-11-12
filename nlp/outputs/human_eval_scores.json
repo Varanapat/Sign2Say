@@ -1,0 +1,51 @@
+{
+ "n_items": 56,
+ "kappa": {
+  "meaning": 0.892,
+  "natural": 0.728,
+  "halluc": 1.0
+ },
+ "kappa_type": {
+  "meaning": "quadratic weighted",
+  "natural": "quadratic weighted",
+  "halluc": "unweighted"
+ },
+ "scores": {
+  "t1/gold": {
+   "n_items": 12,
+   "meaning": 5,
+   "natural": 5,
+   "halluc_rate": 0
+  },
+  "t1/ctc": {
+   "n_items": 26,
+   "meaning": 2.98,
+   "natural": 2.67,
+   "halluc_rate": 0.5
+  },
+  "t1/all": {
+   "n_items": 38,
+   "meaning": 3.62,
+   "natural": 3.41,
+   "halluc_rate": 0.342
+  },
+  "t2/gold": {
+   "n_items": 12,
+   "meaning": 5,
+   "natural": 4.5,
+   "halluc_rate": 0
+  },
+  "t2/ctc": {
+   "n_items": 26,
+   "meaning": 2.94,
+   "natural": 2.58,
+   "halluc_rate": 0.5
+  },
+  "t2/all": {
+   "n_items": 38,
+   "meaning": 3.59,
+   "natural": 3.18,
+   "halluc_rate": 0.342
+  }
+ }
+}
