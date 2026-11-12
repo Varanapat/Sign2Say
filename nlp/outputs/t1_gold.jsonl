@@ -1,0 +1,62 @@
+{"gloss_seq_id": "gs_001", "split": "train", "gloss_words": ["กรุงเทพ", "น้อง", "เที่ยว", "ชอบ"], "t1": "น้องชอบเที่ยวกรุงเทพ", "rule": "G07"}
+{"gloss_seq_id": "gs_002", "split": "train", "gloss_words": ["กรุงเทพ", "พี่", "เที่ยว", "ชอบ"], "t1": "พี่ชอบเที่ยวกรุงเทพ", "rule": "G07"}
+{"gloss_seq_id": "gs_003", "split": "train", "gloss_words": ["กรุงเทพ", "ยาย", "เที่ยว", "ชอบ"], "t1": "ยายชอบเที่ยวกรุงเทพ", "rule": "G07"}
+{"gloss_seq_id": "gs_004", "split": "train", "gloss_words": ["กรุงเทพ", "แฟน", "เที่ยว", "ชอบ"], "t1": "แฟนชอบเที่ยวกรุงเทพ", "rule": "G07"}
+{"gloss_seq_id": "gs_005", "split": "train", "gloss_words": ["กรุงเทพ", "แม่", "เที่ยว", "ชอบ"], "t1": "แม่ชอบเที่ยวกรุงเทพ", "rule": "G07"}
+{"gloss_seq_id": "gs_006", "split": "train", "gloss_words": ["ขนมปัง", "คุณ", "กิน"], "t1": "คุณกินขนมปัง", "rule": "G01"}
+{"gloss_seq_id": "gs_007", "split": "train", "gloss_words": ["ขนมปัง", "ฉัน", "กิน"], "t1": "ฉันกินขนมปัง", "rule": "G01"}
+{"gloss_seq_id": "gs_008", "split": "train", "gloss_words": ["ขนมปัง", "พี่", "กิน"], "t1": "พี่กินขนมปัง", "rule": "G01"}
+{"gloss_seq_id": "gs_009", "split": "train", "gloss_words": ["ขนมปัง", "ยาย", "กิน"], "t1": "ยายกินขนมปัง", "rule": "G01"}
+{"gloss_seq_id": "gs_010", "split": "train", "gloss_words": ["ขนมปัง", "แฟน", "กิน"], "t1": "แฟนกินขนมปัง", "rule": "G01"}
+{"gloss_seq_id": "gs_011", "split": "train", "gloss_words": ["ขนมปัง", "แมว", "กิน"], "t1": "แมวกินขนมปัง", "rule": "G01"}
+{"gloss_seq_id": "gs_012", "split": "train", "gloss_words": ["ขนมปัง", "แม่", "กิน"], "t1": "แม่กินขนมปัง", "rule": "G01"}
+{"gloss_seq_id": "gs_013", "split": "train", "gloss_words": ["ขอบคุณ", "ฉัน", "สบายดี"], "t1": "ขอบคุณ ฉันสบายดี", "rule": "G08"}
+{"gloss_seq_id": "gs_014", "split": "train", "gloss_words": ["ขอโทษ", "ฉัน", "ข้าว", "กิน", "ไป"], "t1": "ขอโทษ ฉันไปกินข้าว", "rule": "G11"}
+{"gloss_seq_id": "gs_015", "split": "train", "gloss_words": ["ขอโทษ", "ฉัน", "หูหนวก"], "t1": "ขอโทษ ฉันหูหนวก", "rule": "G10"}
+{"gloss_seq_id": "gs_016", "split": "train", "gloss_words": ["คุณ", "ข้าว", "กิน"], "t1": "คุณกินข้าว", "rule": "G06"}
+{"gloss_seq_id": "gs_017", "split": "train", "gloss_words": ["คุณ", "ฉัน", "แต่งงาน"], "t1": "คุณแต่งงานกับฉัน", "rule": "G09"}
+{"gloss_seq_id": "gs_018", "split": "train", "gloss_words": ["คุณ", "ฉัน", "แฟน"], "t1": "คุณเป็นแฟนกับฉัน", "rule": "G09"}
+{"gloss_seq_id": "gs_019", "split": "train", "gloss_words": ["คุณ", "ชื่อ", "อะไร"], "t1": "คุณชื่ออะไร", "rule": "G13"}
+{"gloss_seq_id": "gs_020", "split": "train", "gloss_words": ["คุณ", "เกิด", "ที่ไหน"], "t1": "คุณเกิดที่ไหน", "rule": "G13"}
+{"gloss_seq_id": "gs_021", "split": "train", "gloss_words": ["คุณ", "ไป", "ที่ไหน"], "t1": "คุณไปที่ไหน", "rule": "G13x"}
+{"gloss_seq_id": "gs_022", "split": "train", "gloss_words": ["ฉัน", "ชื่อ", "แมว"], "t1": "ฉันชื่อแมว", "rule": "G13x"}
+{"gloss_seq_id": "gs_023", "split": "train", "gloss_words": ["น้อง", "ข้าว", "กิน"], "t1": "น้องกินข้าว", "rule": "G06"}
+{"gloss_seq_id": "gs_024", "split": "train", "gloss_words": ["พรุ่งนี้", "คุณ", "ข้าว", "กิน", "ไป", "ที่ไหน"], "t1": "พรุ่งนี้คุณไปกินข้าวที่ไหน", "rule": "G12"}
+{"gloss_seq_id": "gs_025", "split": "train", "gloss_words": ["พี่", "ข้าว", "กิน"], "t1": "พี่กินข้าว", "rule": "G06"}
+{"gloss_seq_id": "gs_026", "split": "train", "gloss_words": ["ภาษามือ", "คุณ", "เรียน"], "t1": "คุณเรียนภาษามือ", "rule": "G04"}
+{"gloss_seq_id": "gs_027", "split": "train", "gloss_words": ["ภาษามือ", "คุณ", "เรียน", "ชอบ"], "t1": "คุณชอบเรียนภาษามือ", "rule": "G05"}
+{"gloss_seq_id": "gs_028", "split": "train", "gloss_words": ["ภาษามือ", "ฉัน", "เรียน"], "t1": "ฉันเรียนภาษามือ", "rule": "G04"}
+{"gloss_seq_id": "gs_029", "split": "train", "gloss_words": ["ภาษามือ", "ฉัน", "เรียน", "ชอบ"], "t1": "ฉันชอบเรียนภาษามือ", "rule": "G05"}
+{"gloss_seq_id": "gs_030", "split": "train", "gloss_words": ["ภาษามือ", "น้อง", "เรียน"], "t1": "น้องเรียนภาษามือ", "rule": "G04"}
+{"gloss_seq_id": "gs_031", "split": "train", "gloss_words": ["ภาษามือ", "พี่", "เรียน", "ชอบ"], "t1": "พี่ชอบเรียนภาษามือ", "rule": "G05"}
+{"gloss_seq_id": "gs_032", "split": "train", "gloss_words": ["ภาษามือ", "ยาย", "เรียน", "ชอบ"], "t1": "ยายชอบเรียนภาษามือ", "rule": "G05"}
+{"gloss_seq_id": "gs_033", "split": "train", "gloss_words": ["ภาษามือ", "แฟน", "เรียน"], "t1": "แฟนเรียนภาษามือ", "rule": "G04"}
+{"gloss_seq_id": "gs_034", "split": "train", "gloss_words": ["ภาษามือ", "แฟน", "เรียน", "ชอบ"], "t1": "แฟนชอบเรียนภาษามือ", "rule": "G05"}
+{"gloss_seq_id": "gs_035", "split": "train", "gloss_words": ["ภาษามือ", "แม่", "เรียน"], "t1": "แม่เรียนภาษามือ", "rule": "G04"}
+{"gloss_seq_id": "gs_036", "split": "train", "gloss_words": ["ภาษามือ", "แม่", "เรียน", "ชอบ"], "t1": "แม่ชอบเรียนภาษามือ", "rule": "G05"}
+{"gloss_seq_id": "gs_037", "split": "train", "gloss_words": ["ยาย", "ข้าว", "กิน"], "t1": "ยายกินข้าว", "rule": "G06"}
+{"gloss_seq_id": "gs_038", "split": "train", "gloss_words": ["วันนี้", "คุณ", "ข้าว", "กิน", "ไป", "ที่ไหน"], "t1": "วันนี้คุณไปกินข้าวที่ไหน", "rule": "G12"}
+{"gloss_seq_id": "gs_039", "split": "train", "gloss_words": ["สวัสดี", "ฉัน", "สบายดี"], "t1": "สวัสดี ฉันสบายดี", "rule": "G08"}
+{"gloss_seq_id": "gs_040", "split": "train", "gloss_words": ["แม่", "ข้าว", "กิน"], "t1": "แม่กินข้าว", "rule": "G06"}
+{"gloss_seq_id": "gs_041", "split": "train", "gloss_words": ["ไข่", "คุณ", "กิน", "ชอบ"], "t1": "คุณชอบกินไข่", "rule": "G02"}
+{"gloss_seq_id": "gs_042", "split": "train", "gloss_words": ["ไข่", "พี่", "กิน", "ชอบ"], "t1": "พี่ชอบกินไข่", "rule": "G02"}
+{"gloss_seq_id": "gs_043", "split": "train", "gloss_words": ["ไข่", "แฟน", "กิน", "ชอบ"], "t1": "แฟนชอบกินไข่", "rule": "G02"}
+{"gloss_seq_id": "gs_044", "split": "train", "gloss_words": ["ไข่", "แมว", "กิน", "ชอบ"], "t1": "แมวชอบกินไข่", "rule": "G02"}
+{"gloss_seq_id": "gs_045", "split": "val", "gloss_words": ["ขนมปัง", "น้อง", "กิน"], "t1": "น้องกินขนมปัง", "rule": "G01"}
+{"gloss_seq_id": "gs_046", "split": "val", "gloss_words": ["ฉัน", "ข้าว", "กิน"], "t1": "ฉันกินข้าว", "rule": "G06"}
+{"gloss_seq_id": "gs_047", "split": "val", "gloss_words": ["ภาษามือ", "น้อง", "เรียน", "ชอบ"], "t1": "น้องชอบเรียนภาษามือ", "rule": "G05"}
+{"gloss_seq_id": "gs_048", "split": "val", "gloss_words": ["ภาษามือ", "พี่", "เรียน"], "t1": "พี่เรียนภาษามือ", "rule": "G04"}
+{"gloss_seq_id": "gs_049", "split": "val", "gloss_words": ["ไข่", "น้อง", "กิน", "ชอบ"], "t1": "น้องชอบกินไข่", "rule": "G02"}
+{"gloss_seq_id": "gs_050", "split": "val", "gloss_words": ["ไข่", "แม่", "กิน", "ชอบ"], "t1": "แม่ชอบกินไข่", "rule": "G02"}
+{"gloss_seq_id": "gs_051", "split": "test", "gloss_words": ["กรุงเทพ", "ฉัน", "เที่ยว", "ชอบ"], "t1": "ฉันชอบเที่ยวกรุงเทพ", "rule": "G07"}
+{"gloss_seq_id": "gs_052", "split": "test", "gloss_words": ["คุณ", "เกิด", "หูหนวก"], "t1": "คุณหูหนวกตั้งแต่เกิด", "rule": "G03"}
+{"gloss_seq_id": "gs_053", "split": "test", "gloss_words": ["ฉัน", "เกิด", "หูหนวก"], "t1": "ฉันหูหนวกตั้งแต่เกิด", "rule": "G03"}
+{"gloss_seq_id": "gs_054", "split": "test", "gloss_words": ["น้อง", "เกิด", "หูหนวก"], "t1": "น้องหูหนวกตั้งแต่เกิด", "rule": "G03"}
+{"gloss_seq_id": "gs_055", "split": "test", "gloss_words": ["พี่", "เกิด", "หูหนวก"], "t1": "พี่หูหนวกตั้งแต่เกิด", "rule": "G03"}
+{"gloss_seq_id": "gs_056", "split": "test", "gloss_words": ["ภาษามือ", "ยาย", "เรียน"], "t1": "ยายเรียนภาษามือ", "rule": "G04"}
+{"gloss_seq_id": "gs_057", "split": "test", "gloss_words": ["ยาย", "เกิด", "หูหนวก"], "t1": "ยายหูหนวกตั้งแต่เกิด", "rule": "G03"}
+{"gloss_seq_id": "gs_058", "split": "test", "gloss_words": ["แฟน", "ข้าว", "กิน"], "t1": "แฟนกินข้าว", "rule": "G06"}
+{"gloss_seq_id": "gs_059", "split": "test", "gloss_words": ["แฟน", "เกิด", "หูหนวก"], "t1": "แฟนหูหนวกตั้งแต่เกิด", "rule": "G03"}
+{"gloss_seq_id": "gs_060", "split": "test", "gloss_words": ["แม่", "เกิด", "หูหนวก"], "t1": "แม่หูหนวกตั้งแต่เกิด", "rule": "G03"}
+{"gloss_seq_id": "gs_061", "split": "test", "gloss_words": ["ไข่", "ฉัน", "กิน", "ชอบ"], "t1": "ฉันชอบกินไข่", "rule": "G02"}
+{"gloss_seq_id": "gs_062", "split": "test", "gloss_words": ["ไข่", "ยาย", "กิน", "ชอบ"], "t1": "ยายชอบกินไข่", "rule": "G02"}

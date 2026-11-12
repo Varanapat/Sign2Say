@@ -1,0 +1,55 @@
+{
+ "gold_train": {
+  "n": 44,
+  "chrf_sacrebleu": 97.01
+ },
+ "gold_val": {
+  "n": 6,
+  "chrf_sacrebleu": 100.0
+ },
+ "gold_test": {
+  "n": 12,
+  "chrf_sacrebleu": 81.83
+ },
+ "gold_all": {
+  "n": 62,
+  "chrf_sacrebleu": 93.61
+ },
+ "ctc_seed0_fromref": {
+  "n": 45,
+  "chrf_sacrebleu": 83.2
+ },
+ "ctc_seed0_fromhyp": {
+  "n": 45,
+  "chrf_sacrebleu": 81.18
+ },
+ "ctc_seed1_fromref": {
+  "n": 45,
+  "chrf_sacrebleu": 83.2
+ },
+ "ctc_seed1_fromhyp": {
+  "n": 45,
+  "chrf_sacrebleu": 77.92
+ },
+ "ctc_seed2_fromref": {
+  "n": 45,
+  "chrf_sacrebleu": 83.2
+ },
+ "ctc_seed2_fromhyp": {
+  "n": 45,
+  "chrf_sacrebleu": 69.04
+ },
+ "ctc_mean_fromref": {
+  "mean": 83.2,
+  "sd": 0.0
+ },
+ "ctc_mean_fromhyp": {
+  "mean": 76.05,
+  "sd": 6.28
+ },
+ "_meta": {
+  "signature": "nrefs:2|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.6.0",
+  "max_diff_vs_our_impl": 0.0,
+  "system": "T1"
+ }
+}

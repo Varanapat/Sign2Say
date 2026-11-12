@@ -1,0 +1,18 @@
+{
+ "T1": {
+  "gold_test": 81.83,
+  "ctc_mean": 76.05,
+  "ctc_sd": 6.28,
+  "ctc_fromref": 83.2
+ },
+ "T2": {
+  "gold_test": 87.52,
+  "ctc_mean": 81.05,
+  "ctc_sd": 9.47,
+  "ctc_fromref": 90.19
+ },
+ "_meta": {
+  "chrf": "own impl, verified == sacreBLEU 2.6.0 (diff 0.00)",
+  "t2_model": "typhoon-v2.5-30b-a3b-instruct"
+ }
+}

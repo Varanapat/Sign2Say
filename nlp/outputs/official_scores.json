@@ -1,0 +1,113 @@
+{
+ "results": {
+  "T1": {
+   "gold_test": {
+    "chrF": 81.83,
+    "BLEU": 46.96
+   },
+   "ctc_chrF": {
+    "mean": 76.05,
+    "sd": 6.28,
+    "seeds": [
+     81.18,
+     77.92,
+     69.04
+    ]
+   },
+   "ctc_fromref_chrF": 83.2,
+   "ctc_BLEU": {
+    "mean": 45.67,
+    "sd": 5.33,
+    "seeds": [
+     51.4,
+     44.77,
+     40.86
+    ]
+   },
+   "ctc_fromref_BLEU": 53.74
+  },
+  "T2": {
+   "gold_test": {
+    "chrF": 87.52,
+    "BLEU": 81.73
+   },
+   "ctc_chrF": {
+    "mean": 81.05,
+    "sd": 9.47,
+    "seeds": [
+     88.4,
+     84.39,
+     70.35
+    ]
+   },
+   "ctc_fromref_chrF": 90.19,
+   "ctc_BLEU": {
+    "mean": 74.49,
+    "sd": 6.91,
+    "seeds": [
+     82.21,
+     72.4,
+     68.87
+    ]
+   },
+   "ctc_fromref_BLEU": 85.98
+  },
+  "T2-4B": {
+   "gold_test": {
+    "chrF": 65.5,
+    "BLEU": 63.99
+   },
+   "ctc_chrF": {
+    "mean": 65.14,
+    "sd": 8.16,
+    "seeds": [
+     69.16,
+     70.51,
+     55.75
+    ]
+   },
+   "ctc_fromref_chrF": 70.0,
+   "ctc_BLEU": {
+    "mean": 60.85,
+    "sd": 6.96,
+    "seeds": [
+     66.13,
+     63.45,
+     52.96
+    ]
+   },
+   "ctc_fromref_BLEU": 68.61
+  },
+  "T2-tuned": {
+   "gold_test": {
+    "chrF": 96.91,
+    "BLEU": 95.74
+   },
+   "ctc_chrF": {
+    "mean": 89.28,
+    "sd": 11.14,
+    "seeds": [
+     96.77,
+     94.59,
+     76.48
+    ]
+   },
+   "ctc_fromref_chrF": 97.57,
+   "ctc_BLEU": {
+    "mean": 86.44,
+    "sd": 7.66,
+    "seeds": [
+     94.01,
+     86.61,
+     78.7
+    ]
+   },
+   "ctc_fromref_BLEU": 96.67
+  }
+ },
+ "signatures": {
+  "chrF": "nrefs:2|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.6.0",
+  "BLEU": "nrefs:2|case:mixed|eff:no|tok:none|smooth:exp|version:2.6.0|pretok:pythainlp-5.4.0-newmm|spaces-removed"
+ },
+ "note": "T2-4B is supplementary (not in human eval)"
+}
