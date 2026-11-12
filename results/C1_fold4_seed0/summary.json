@@ -1,0 +1,33 @@
+{
+ "exp": "C1",
+ "level": "L0",
+ "modality": "rgb",
+ "fold": 4,
+ "seed": 0,
+ "input": "16 frames x 112² RGB (letterbox, imagenet norm)",
+ "params": 11270904,
+ "best_epoch": 30,
+ "val": {
+  "top1": 0.512,
+  "top5": 0.8101,
+  "macro_f1": 0.4938
+ },
+ "test": {
+  "top1": 0.3606,
+  "top5": 0.6851,
+  "macro_f1": 0.3651
+ },
+ "train_minutes": 69.81,
+ "latency_ms_b1": 12.889,
+ "device": "Apple M4 (MPS)",
+ "model": "C1",
+ "hparams": {
+  "epochs": 30,
+  "patience": 10,
+  "batch_size": 8,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "no_pretrained": false,
+  "limit": 0
+ }
+}
